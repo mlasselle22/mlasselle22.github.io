@@ -69,7 +69,7 @@ skills:
     - Sand Casting
     - Arduino
     - Breadboarding for circuit testing
-  -category: Simulation
+  - category: Simulation
     tools:
     - SOLIDWORKS FEA
     - SOLIDWORKS CFD
