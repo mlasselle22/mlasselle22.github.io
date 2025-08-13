@@ -45,41 +45,37 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
+  - category: Mechanical Design
+  tools:
+  - Structural Design
+  - Stress-Driven Design
+  - Displacement-Driven Design
+  - Parametric Modeling
+  - CAD Assembly Design and Mating
+  - Tolerancing and Fit Selection
+  - Weight Optimization
+  - Design for Manufacturing (DFM)
+  - Design for Assembly (DFA)
+  - Material Selection
   - category: 3D Modeling
     tools:
-    - SOLIDWORKS
+    - SOLIDWORKS CAD
     - Fusion 360 (Autodesk)
     - Onshape
   - category: Prototyping
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
+    - FDM 3D Printing
+    - CNC Milling and Routing
+    - Sand Casting
+    - Arduino
     - Breadboarding for circuit testing
+  -category: Simulation
+    tools:
+    - SOLIDWORKS FEA
+    - SOLIDWORKS CFD
   - category: Design Standards / Practices
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
-    tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - ANSI fits and tolerances  
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
