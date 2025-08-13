@@ -15,7 +15,9 @@ title: Matt Lasselle's Portfolio # This is what shows up in the tab of the brows
 name: Matt Lasselle
 headline: headline message
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  test
+  Passionate about advancing aerospace technologies through innovative mechanical design and analysis. 
+  Mechanical engineer seeking full-time opportunities, with strong skills in design, data analysis, and manufacturing. 
+  Experienced in the design, testing, and validation of mechanical systems and assemblies.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/Profile.jpeg
