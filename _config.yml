@@ -14,7 +14,7 @@ title: Matt Lasselle's Portfolio # This is what shows up in the tab of the brows
 # Hero Section
 name: Matt Lasselle
 headline: headline message
-description: Passionate about advancing aerospace technologies through innovative mechanical design and analysis. Mechanical engineer seeking full-time opportunities, with strong skills in design, data analysis, and manufacturing. Experienced in the design, testing, and validation of mechanical systems and assemblies. # dont remove this line. this will ignore all new lines until the next section
+description: >- # dont remove this line. this will ignore all new lines until the next section
   Write an awesome intro and discuss your highlights and qualification. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
