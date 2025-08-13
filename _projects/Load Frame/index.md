@@ -5,5 +5,5 @@ description:  Fabricated a load frame to test 3D-printed components and assembli
 skills: 
 - Mechanical Design
 - Prototyping
-main-image: /project.webp 
+main-image: /IMG_8920.png 
 ---
