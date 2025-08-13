@@ -1,6 +1,6 @@
 ---
 layout: post
-title: project title
+title: Custom 3D Printer
 description:  short description of the project
 skills: 
 - skill 1
