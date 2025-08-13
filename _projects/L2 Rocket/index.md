@@ -1,6 +1,6 @@
 ---
 layout: post
-title: project title
+title: L2 Rocket
 description:  short description of the project
 skills: 
 - skill 1
