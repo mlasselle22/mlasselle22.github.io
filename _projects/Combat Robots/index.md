@@ -1,6 +1,6 @@
 ---
 layout: post
-title: project title
+title: Combat Robots
 description:  short description of the project
 skills: 
 - skill 1
