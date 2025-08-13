@@ -46,17 +46,17 @@ external-links:    # input only your own url slug. The icons with missing entrie
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
   - category: Mechanical Design
-  tools:
-  - Structural Design
-  - Stress-Driven Design
-  - Displacement-Driven Design
-  - Parametric Modeling
-  - CAD Assembly Design and Mating
-  - Tolerancing and Fit Selection
-  - Weight Optimization
-  - Design for Manufacturing (DFM)
-  - Design for Assembly (DFA)
-  - Material Selection
+    tools:
+    - Structural Design
+    - Stress-Driven Design
+    - Displacement-Driven Design
+    - Parametric Modeling
+    - CAD Assembly Design and Mating
+    - Tolerancing and Fit Selection
+    - Weight Optimization
+    - Design for Manufacturing (DFM)
+    - Design for Assembly (DFA)
+    - Material Selection
   - category: 3D Modeling
     tools:
     - SOLIDWORKS CAD
