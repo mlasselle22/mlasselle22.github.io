@@ -28,7 +28,7 @@ Version 5: Reinforcements of Version 3 Fundamentals
 
 ---
 
-## Additional Notes
+## Accomplishments
 Successfully integrated mechanical design, materials selection, and manufacturing techniques to create a fully functional combat robot.
 Iterative design process emphasized the importance of ease of assembly, manufacturing constraints, and component protection.
 Applied both additive and subtractive manufacturing methods to optimize performance, strength, and durability.
