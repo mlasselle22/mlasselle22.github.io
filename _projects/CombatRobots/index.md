@@ -16,7 +16,7 @@ The Combat Robots project involved designing, manufacturing, and testing multipl
 
 ---
 
-Version 1: Motor Directly Connect to Weapon
+Version 1: Direct Motor Connection to Weapon
 {% include image-gallery.html images="Ankle_Biter2.JPEG" height="400" %}
 {% include youtube-video.html id="XjRlZ6yxNGA" autoplay= "false"%} 
 
