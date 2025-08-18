@@ -7,3 +7,10 @@ skills:
 - skill 2
 main-image: /Ankle_Biter.JPEG
 ---
+
+## Overview
+This project involved designing, manufacturing, and testing a several combat robots.
+
+{% include image-gallery.html images="/assets/projects/piston/Waffles1.jpg" height="350" %}
+
+The design reduced weight by 30% while maintaining structural integrity.
