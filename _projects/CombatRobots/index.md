@@ -6,7 +6,7 @@ skills:
   - CAD
   - Machining
   - Robotics
-main-image: /assets/projects/CombatRobots/Ankle_Biter.jpeg
+main-image: /Ankle_Biter.jpeg
 ---
 
 ## Overview
