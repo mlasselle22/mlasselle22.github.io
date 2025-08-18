@@ -8,7 +8,7 @@ skills:
   - CNC Milling
   - OpenRocket Simulation
   - project Planning
-main-image: /L3.JPEG
+main-image: /L3Sim.JPEG
 ---
 
 ## Overview
@@ -16,6 +16,7 @@ I designed and manufactured a L3 high-powered rocket. I leveraged OpenRocket to 
 
 ---
 
+{% include image-gallery.html images="L3.JPEG" height="400" %}
 {% include image-gallery.html images="L3Matt.JPEG" height="400" %}
 
 ---
