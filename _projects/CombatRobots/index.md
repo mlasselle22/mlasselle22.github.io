@@ -6,7 +6,7 @@ skills:
   - CAD
   - Machining
   - Robotics
-main-image: /assets/projects/CombatRobots/Ankle_Biter.JPEG
+main-image: /assets/projects/CombatRobots/Ankle_Biter.jpeg
 ---
 
 ## Overview
@@ -14,8 +14,8 @@ This project involved designing, manufacturing, and testing several combat robot
 
 ## Embedded Images
 ### Project Images
-{% include image-gallery.html images="Waffles1.JPEG" height="400" %}
-{% include image-gallery.html images="Waffles3.png" height="400" %}
+{% include image-gallery.html images="Waffles1.jpeg" height="400" %}
+{% include image-gallery.html images="Waffles2.png" height="400" %}
 *Images of combat robots in testing and competition.*
 
 ## Adding a Horizontal Line
