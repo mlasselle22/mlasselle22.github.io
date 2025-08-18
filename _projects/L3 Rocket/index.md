@@ -1,7 +1,7 @@
 ---
 layout: post
 title: L3 Rocket
-description: Designed, built, and tested several combat robots for competitions.  
+description: Designed and built a L3 Rocket
 skills: 
   - SOLIDWORKS CAD
   - SOLIDWORKS FEA
@@ -16,8 +16,8 @@ I designed and manufactured a L3 high-powered rocket. I leveraged OpenRocket to 
 
 ---
 
-{% include image-gallery.html images="L3.JPEG" height="400" %}
-{% include image-gallery.html images="L3Matt.JPEG" height="400" %}
+{% include image-gallery.html images="L3.jpeg" height="400" %}
+{% include image-gallery.html images="L3Matt.jpeg" height="400" %}
 
 ---
 
