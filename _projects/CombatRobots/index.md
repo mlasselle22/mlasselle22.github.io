@@ -21,7 +21,9 @@ The Combat Robots project involved designing, manufacturing, and testing multipl
 {% include image-gallery.html images="Waffles2.png" height="400" %}
 *Images of combat robots in testing and competition.*
 
-## Adding a Horizontal Line
+
+{% include youtube-video.html id="Sk7qpaN0EQg" autoplay= "false"%}
+
 ---
 
 ## Additional Notes
