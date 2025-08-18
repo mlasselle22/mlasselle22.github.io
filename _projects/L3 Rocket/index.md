@@ -20,7 +20,7 @@ I designed and manufactured a L3 high-powered rocket. I leveraged OpenRocket to 
 
 ---
 
-Accomplishments
+## Accomplishments
 Applied simulations to optimize fin design with the goal of preventing flutter and divergence
 
 Balanced structural integrity and weight through careful material selection and FEA analysis.
