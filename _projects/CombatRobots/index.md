@@ -17,14 +17,14 @@ The Combat Robots project involved designing, manufacturing, and testing multipl
 
 ## Embedded Images
 ### Project Images
-{% include image-gallery.html images="Ankle_Biter2.jpeg" height="400" %}
+{% include image-gallery.html images="Ankle_Biter2.JPEG" height="400" %}
 {% include youtube-video.html id="XjRlZ6yxNGA" autoplay= "false"%}
-
-{% include image-gallery.html images="Waffles2.png" height="400" %}
-{% include image-gallery.html images="WafflesManufacturing.jpeg" height="400" %}
-*Images of combat robots
-
 {% include youtube-video.html id="Sk7qpaN0EQg" autoplay= "false"%}
+
+{% include image-gallery.html images="WafflesManufacturing.JPEG" height="400" %}
+{% include image-gallery.html images="Waffles2.png" height="400" %}
+
+
 
 ---
 
