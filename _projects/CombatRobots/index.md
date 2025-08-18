@@ -14,7 +14,7 @@ This project involved designing, manufacturing, and testing several combat robot
 
 ## Embedded Images
 ### Project Images
-{% include image-gallery.html images="/assets/projects/Combat-Robots/Waffles1.jpeg, /assets/projects/Combat-Robots/Waffles2.png" height="400" %}  
+{% include image-gallery.html images="/assets/projects/CombatRobots/Waffles1.jpeg, /assets/projects/CombatRobots/Waffles2.png" height="400" %}  
 *Images of combat robots in testing and competition.*
 
 ### External Image Example
