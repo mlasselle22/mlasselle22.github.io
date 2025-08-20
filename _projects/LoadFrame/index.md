@@ -17,9 +17,9 @@ I designed and built a custom 4-column load frame in SOLIDWORKS to test the mech
 
 ---
 Version 2:
-{% include image-gallery.html images="IMG_8980.JPEG, IMG_8981.JPEG" height="400" %}
+{% include image-gallery.html images="IMG_8980.JPEG, IMG_8981.JPEG, LoadFrame.png" height="400" %}
 ---
-Version 2 CAD: 
+Version 1: 
 {% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="400" %}
 
 
