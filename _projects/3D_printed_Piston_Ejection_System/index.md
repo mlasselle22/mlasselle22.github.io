@@ -21,10 +21,10 @@ Version 1:
 {% include image-gallery.html images="IMG_6710.JPEG, PistonV2.png" height="400" %}
 
 ---
-Flight Test 2: Loss of Compression in Piston Cylinder
+Flight Test 2: Loss of Compression in Piston Cylinder Which Led to a Partial Deployment Failure
 {% include youtube-video.html id="xXKfyyOq-eo" autoplay= "false"%} 
 ---
-Flight Test 1: Successful Flight and Recovery
+Flight Test 1: Successful Flight and Recovery but Piston Sustained Damage
 {% include youtube-video.html id="GyQWFKKNJ4Y" autoplay= "false"%} 
 ---
 ## Accomplishments
