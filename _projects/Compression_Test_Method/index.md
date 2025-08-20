@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compression Testing Method
-description: Designed, built, and tested several combat robots for competitions.  
+description: Refined Company Compression Testing Method to Improve Accuracy and Reliability in Material Data
 skills: 
   - Test Method Development
   - Material Testing
