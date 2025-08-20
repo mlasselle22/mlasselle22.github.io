@@ -16,7 +16,7 @@ I began the project by modeling a rough flight profile in OpenRocket to verify p
 
 ---
 Rocket: Cinnamon Twist
-{% include image-gallery.html images="IMG_8929.JPEG, IMG_8930.JPEG, IMG_8931.JPEG" height="400" %} 
+{% include image-gallery.html images="IMG_8929.JPEG, IMG_8930.JPEG, IMG_8931.JPEG, RollRocket.png" height="400" %} 
 
 ---
 
