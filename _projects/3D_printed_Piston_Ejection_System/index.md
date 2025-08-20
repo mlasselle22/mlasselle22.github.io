@@ -6,7 +6,7 @@ skills:
   - Mechanical Design
   - SOLIDWORKS CAD
   - 3D Printing
-  - Grtound Testing and Validation
+  - Ground Testing and Validation
 main-image: /PistonCover.png
 ---
 
