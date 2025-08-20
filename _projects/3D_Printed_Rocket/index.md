@@ -27,7 +27,7 @@ Version 1: Made From PETG and Nylon-6CF
 ---
 
 ## Accomplishments
-Employed iterative testing to validate separation system and recovery reliability
+Designed, manufactured, and flight-tested a fully 3D-printed rocket
 
 Incorporated advanced material choices to balance toughness, weight, and printability
 
