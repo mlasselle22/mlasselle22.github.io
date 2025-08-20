@@ -8,7 +8,7 @@ skills:
   - SOLIDWORKS FEA
   - CNC Milling
   - Robotics
-main-image: /Ankle_Biter.JPEG
+main-image: /Comparison.png
 ---
 
 ## Overview
