@@ -11,7 +11,7 @@ main-image: /PistonCover.png
 ---
 
 ## Overview
-I modeled the piston ejection system in SOLIDWORKS, emphasizing ease of assembly and identifying potential catastrophic failure points. Two versions were developed: the first used radial O-ring seals for the bulkheads and a gasketed charge canister for piston charge. The second version replaced radial seals with bore seals and introduced a burst disk in the charge canister to maintain 1 atm pressure regardless of altitude. Both designs were ground-tested for effectiveness in deploying parachutes on high-powered rockets, and tensile testing was performed on the cylinder material to confirm adequate layer adhesion. Version one was successfully flown, validating the feasibility of a fully 3D-printed piston system and version two will be flown in the next 6 months.
+I modeled the piston ejection system in SOLIDWORKS, emphasizing ease of assembly and identifying potential catastrophic failure points. Two versions were developed: the first used radial O-ring seals for the bulkheads and a gasketed charge canister for piston charge. The second version replaced radial seals with bore seals and introduced a burst disk in the charge canister to maintain 1 atm pressure regardless of altitude. Both designs were ground-tested for effectiveness in deploying parachutes on high-powered rockets, and tensile testing was performed on the cylinder material to confirm adequate layer adhesion. Version one was successfully flown, validating the feasibility of a fully 3D-printed piston system and version two will be flown in the next 6 months. 
 
 ---
 Version 2:
