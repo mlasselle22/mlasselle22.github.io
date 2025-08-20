@@ -8,7 +8,7 @@ skills:
   - 3D Printing
   - Embedded Systems
   - PID Control
-main-image: /IMG_3929.JPEG
+main-image: /IMG_8931.JPEG
 ---
 
 ## Overview
