@@ -3,11 +3,12 @@ layout: post
 title: Compression Testing Method
 description: Designed, built, and tested several combat robots for competitions.  
 skills: 
-  - Mechanical Design
-  - SOLIDWORKS CAD
-  - SOLIDWORKS FEA
-  - CNC Milling
-  - Robotics
+  - Test Method Development
+  - Material Testing
+  - Data Collection and Analysis
+  - 3D Printing
+  - Excel Automation
+  - MTS TestSuite TW Elite
 main-image: /Comparison.png
 ---
 
