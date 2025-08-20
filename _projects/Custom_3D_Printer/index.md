@@ -22,7 +22,7 @@ Version 2:
 {% include image-gallery.html images="IMG_8933.JPEG, Printer_Screenshot.png" height="400" %} 
 
 Version 1: Printing a Rocket
-{% include image-gallery.html images="IMG_8933.JPEG, IMG_6583.png, IMG_6585.png" height="400" %} 
+{% include image-gallery.html images="IMG_6583.png, IMG_6585.png" height="400" %} 
 ---
 
 ## Accomplishments
