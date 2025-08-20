@@ -20,8 +20,8 @@ I designed and built a custom 3D printer to achieve performance beyond low-cost 
 ---
 
 Printing a High Powered Rocket
-{% include image-gallery.html images="IMG_6583.JPEG" height="400" %}
-{% include image-gallery.html images="IMG_6585.JPEG" height="400" %}
+{% include image-gallery.html images="IMG_6583.jpeg" height="400" %}
+{% include image-gallery.html images="IMG_6585.jpeg" height="400" %}
 
 ---
 
