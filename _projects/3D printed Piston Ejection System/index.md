@@ -19,10 +19,14 @@ Version 2:
 ---
 Version 1: 
 {% include image-gallery.html images="IMG_6710.JPEG, PistonV2.png" height="400" %}
-Flight Test: Failure to Deploy Parachute
+
+---
+Flight Test 2: Loss of Compression in Piston Cylinder
+{% include youtube-video.html id="GyQWFKKNJ4Y" autoplay= "false"%} 
+---
+Flight Test 1: Successful Flight and Recovery
 {% include youtube-video.html id="xXKfyyOq-eo" autoplay= "false"%} 
 ---
-
 ## Accomplishments
 Iteratively designed two piston versions to improve sealing and piston power reliability
 
