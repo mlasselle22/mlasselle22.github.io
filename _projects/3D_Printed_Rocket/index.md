@@ -15,13 +15,13 @@ I simulated the rocket’s flight profile and stability in OpenRocket to guide m
 
 ---
 Version 2: Made From Ultem 9085 and Nylon-12CF
-{% include image-gallery.html images="IMG_6111.JPEG" height="400" %} 
+{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %} 
 {% include youtube-video.html id="MT_V2mW7tbM" autoplay= "false"%} 
 
 ---
 
 Version 1: Made From PETG and Nylon-6CF
-{% include image-gallery.html images="IMG_6996.JPEG, IMG_6995.JPEG, Rocket.png, RocketCut.png" height="400" %}
+{% include image-gallery.html images="IMG_6996.JPEG, IMG_6995.JPEG" height="400" %}
 {% include youtube-video.html id="xXKfyyOq-eo" autoplay= "false"%} 
 
 ---
