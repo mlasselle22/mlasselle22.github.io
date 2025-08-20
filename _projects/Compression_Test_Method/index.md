@@ -28,7 +28,8 @@ Difference in Yield Stress Values Between Methods:
 ---
 
 ## Accomplishments
-Successfully integrated mechanical design, materials selection, and manufacturing techniques to create a fully functional combat robot.
-Iterative design process emphasized the importance of ease of assembly, manufacturing constraints, and component protection.
-Applied both additive and subtractive manufacturing methods to optimize performance, strength, and durability.
-Integrated electronic components with mechanical systems to produce a fully operational, reliable robot.
+Tested method on multiple FDM materials to validate repeatability.
+
+Ensured compatibility with existing MTS TestSuite TW Elite hardware and software.
+
+Presented findings to engineering team to demonstrate benefits and reliability improvements
