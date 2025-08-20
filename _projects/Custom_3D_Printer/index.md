@@ -23,7 +23,7 @@ Printing a High Powered Rocket
 
 {% include image-gallery.html images="IMG_8933.JPEG" height="400" %}
 
-{% include image-gallery.html images="IMG_6583.png" height="400" %} {% include image-gallery.html images="IMG_6585.png" height="400" %}
+{% include image-gallery.html images="IMG_6583.png, IMG_6585.png" height="400" %} 
 
 
 
