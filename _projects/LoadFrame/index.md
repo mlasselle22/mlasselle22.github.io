@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Combat Robots
+title: Custom Load Frame
 discription: Designed and built a 4-column 3D-printed load frame for testing mechanical strength in tension, compression, and bending of 3D prints
 skills: 
   - Mechanical Design
