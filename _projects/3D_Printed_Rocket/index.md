@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 3D Printed Rocket
-Built and tested a 6 foot tall 3D-printed rocket 
+Description: Built and tested a 6 foot tall 3D-printed rocket 
+skills:
   - SOLIDWORKS CAD
   - Tolerancing
   - 3D Printing
