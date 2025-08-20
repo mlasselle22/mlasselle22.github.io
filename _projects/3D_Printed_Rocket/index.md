@@ -15,7 +15,7 @@ I simulated the rocket’s flight profile and stability in OpenRocket to guide m
 
 ---
 Version 2: Made From Ultem 9085 and Nylon-12CF
-{% include image-gallery.html images="IMG_6111.JPEG, Printer_Screenshot.png" height="400" %} 
+{% include image-gallery.html images="IMG_6111.JPEG" height="400" %} 
 {% include youtube-video.html id="MT_V2mW7tbM" autoplay= "false"%} 
 
 ---
