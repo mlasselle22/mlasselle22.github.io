@@ -19,18 +19,13 @@ I designed and built a custom 3D printer to achieve performance beyond low-cost 
 
 ---
 
-Printing a High Powered Rocket
-
-{% include image-gallery.html images="IMG_8933.JPEG" height="400" %}
-
-{% include image-gallery.html images="IMG_6583.png, IMG_6585.png" height="400" %} 
-
-
+{% include image-gallery.html images="IMG_8933.JPEG, IMG_6583.png, IMG_6585.png" height="400" %} 
 
 ---
 
 ## Accomplishments
-Scaled build volume beyond typical hobbyist printers, successfully producing a large-format system at a fraction of commercial machine cost.
-Validated mechanical peerfromance of printed parts with tensile and compressive testing, confirming mechanical strength comparable to higher-end systems.
-Verified platen heating uniformity through thermocouple measurements, ensuring consistent thermal performance across the expanded build area
+Scaled build volume beyond typical hobbyist printers, successfully producing a large-format system at a fraction of commercial machine cost
 
+Validated mechanical performance of printed parts with tensile and compressive testing, confirming strength comparable to higher-end systems
+
+Verified platen heating uniformity through thermocouple measurements, ensuring consistent thermal performance across the expanded build area
