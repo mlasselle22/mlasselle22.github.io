@@ -13,7 +13,7 @@ main-image: /IMG_8920.png
 ---
 
 ## Overview
-I designed and built a custom 4-column load frame in SOLIDWORKS to test the mechanical strength of parts and assemblies in tension, compression, and bending. The design went through several iterations, starting with a 2-column system, but limitations in the stepper motors’ force capacity led to a shift toward a 4-column design for greater load capability. The system integrates stepper motor drivers, Arduino Unos, OLED screens, load cells, amplifier boards, and SD card modules to enable real-time display, and accurate data logging for post-test analysis. By fabricating all structural components through 3D printing, I significantly reduced costs compared to industrial testing machines while maintaining functionality.
+I designed and built a custom 4-column load frame in SOLIDWORKS to test the mechanical strength of parts and assemblies in tension, compression, and bending. The design went through several iterations, starting with a 2-column system, but limitations in the stepper motors’ force capacity led to a shift toward a 4-column design for greater load capability. The system integrates stepper motor drivers, Arduino Unos, OLED screens, load cells, amplifier boards, and SD card modules to enable real-time display, and accurate data logging for post-test analysis. By fabricating all structural components through 3D printing, I significantly reduced costs compared to industrial testing machines while maintaining functionality. 
 
 ---
 
