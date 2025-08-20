@@ -11,7 +11,7 @@ skills:
   - Thermal Testing
   - CNC Milling
   - Klipper
-main-image: /IMG_8933.JPEG
+main-image: /IMG_6584.png
 ---
 
 ## Overview
@@ -21,9 +21,11 @@ I designed and built a custom 3D printer to achieve performance beyond low-cost 
 
 Printing a High Powered Rocket
 
-{% include image-gallery.html images="IMG_6583.png" height="400" %}
+{% include image-gallery.html images="IMG_8933.JPEG" height="400" %}
 
-{% include image-gallery.html images="IMG_6585.png" height="400" %}
+{% include image-gallery.html images="IMG_6583.png" height="400" %} {% include image-gallery.html images="IMG_6585.png" height="400" %}
+
+
 
 ---
 
