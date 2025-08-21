@@ -18,16 +18,13 @@ I launched an Etsy shop that integrates engineering design, manufacturing, and d
 Most Popular Item: Over 40 Sold
 {% include image-gallery.html images="Etsy.png, EtsyCAD.png" height="400" %}
 
-Popular Listing: 10 Sold
-{% include image-gallery.html images="NebulaCAD=.png" height="400" %}
-
 ---
 [Etsy Shop]([https://en.wikipedia.org](https://www.etsy.com/shop/NotARocketScientist2?msockid=07c295814a6e607d232283a34be86145&dd_referrer=https%3A%2F%2Fwww.bing.com%2F))
 
 
 ## Accomplishments
-Designed, manufactured, and flight-tested a fully 3D-printed rocket
+Delivered products to individual hobbyists and institutional buyers.
 
-Incorporated advanced material choices to balance toughness, weight, and printability
+Focus on iterative design for aerodynamics, durability, and manufacturability.
 
-Leveraged simulation to align flight performance expectations with physical build
+Managed all aspects of operations, from product design and production to sales and marketing.
