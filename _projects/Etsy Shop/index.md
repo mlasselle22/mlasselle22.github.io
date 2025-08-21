@@ -1,9 +1,33 @@
 ---
 layout: post
 title: Etsy Shop
-description:  short description of the project
-skills: 
-- skill 1
-- skill 2
-main-image: /project.webp 
+Description: Built and tested a 6 foot tall 3D-printed rocket 
+skills:
+  - SOLIDWORKS CAD
+  - OpenRocket Simulation
+  - 3D Printing
+  - Customer Service
+main-image: /NebulaCAD.png
 ---
+
+## Overview
+I launched an Etsy shop that integrates engineering design, manufacturing, and direct customer sales of 3D printed model rockets. Each rocket is simulated in OpenRocket for aerodynamic stability, designed in SOLIDWORKS, and produced with FDM 3D printing optimized for lightweight strength and high surface quality. Since opening, I have completed over 60 sales—including more than 40 of my most popular rocket models—ranging from 1 to nearly 3 feet tall. In addition to standard kits, I design and deliver custom components such as fin cans for hobbyists, and I have even had customers use my rockets in a commercial project for the U.S. Navy. By ensuring rockets are both flight-stable and visually refined, I consistently achieve strong customer satisfaction.
+
+---
+
+Most Popular Item: Over 40 Sold
+{% include image-gallery.html images="Etsy.png, EtsyCAD.png" height="400" %}
+
+Popular Listing: 10 Sold
+{% include image-gallery.html images="NebulaCAD=.png" height="400" %}
+
+---
+[Etsy Shop]([https://en.wikipedia.org](https://www.etsy.com/shop/NotARocketScientist2?msockid=07c295814a6e607d232283a34be86145&dd_referrer=https%3A%2F%2Fwww.bing.com%2F))
+
+
+## Accomplishments
+Designed, manufactured, and flight-tested a fully 3D-printed rocket
+
+Incorporated advanced material choices to balance toughness, weight, and printability
+
+Leveraged simulation to align flight performance expectations with physical build
