@@ -19,7 +19,7 @@ Most Popular Item: Over 40 Sold
 {% include image-gallery.html images="Etsy.png, EtsyCAD.png" height="400" %}
 
 ---
-[Etsy Shop]([https://en.wikipedia.org](https://www.etsy.com/shop/NotARocketScientist2?msockid=07c295814a6e607d232283a34be86145&dd_referrer=https%3A%2F%2Fwww.bing.com%2F))
+[Etsy Shop]([https://en.wikipedia.org](https://www.etsy.com/shop/NotARocketScientist2)
 
 
 ## Accomplishments
