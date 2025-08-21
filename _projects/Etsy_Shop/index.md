@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Etsy Shop
-Description: Built and tested a 6 foot tall 3D-printed rocket 
+description: “Founded and operate an Etsy shop specializing in the design, simulation, and 3D printing of model rockets and custom components
 skills:
   - SOLIDWORKS CAD
   - OpenRocket Simulation
