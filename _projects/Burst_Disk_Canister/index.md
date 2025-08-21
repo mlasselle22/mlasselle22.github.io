@@ -7,13 +7,14 @@ skills:
   - SOLIDWORKS CAD
   - SOLIDWORKS FEA
   - O-ring Seal Design
+  - Tolerancing
   - CNC Milling
   - Hydrostatic Testing
 main-image: /Ankle_Biter.JPEG
 ---
 
 ## Overview
-Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powdered burning at high altitudes. The canister was modeled in SOLIDWORKS CAD, with radial O-ring seals versus the previous gasket-based design. Structural integrity was analyzed using SOLIDWORKS FEA and verified with hand analysis of thick-walled pressure vessel calculations. Multiple iterations were created, each progressively smaller while maintaining performance. Hydrostatic testing was conducted for each design to validate proper sealing and predictable burst disk activation at the desired pressure.
+Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powder ignition at high altitudes. The canister was modeled in SOLIDWORKS CAD, incorporating radial O-ring seals to replace the previous gasket-based design. ANSI tolerancing standards were applied to ensure proper fit and sealing between the O-rings and mating components. Structural integrity was analyzed using SOLIDWORKS FEA and verified through hand calculations of thick-walled pressure vessels. Multiple iterations were developed, each progressively smaller while maintaining performance. Hydrostatic testing validated proper sealing and predictable burst disk activation at the desired pressure.
 
 ---
 
