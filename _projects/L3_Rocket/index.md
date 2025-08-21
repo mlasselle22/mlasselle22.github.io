@@ -7,17 +7,15 @@ skills:
   - SOLIDWORKS FEA
   - CNC Milling
   - OpenRocket Simulation
-  - project Planning
+  - Project Planning
 main-image: /L3Sim.png
 ---
 
 ## Overview
-I designed and manufactured a L3 high-powered rocket. I leveraged OpenRocket to predict flight performance and guide structural decisions such as fin thickness and material to avoid fin flutter and divergence. I prepared and delivered a comprehensive technical presentation to my TAPS for project approval, while also developing a complete bill of materials and purchase orders to procure all necessary components. Critical flight elements, such as aluminum bulkheads, were designed and CNC milled in-house out of aluminum, and FEA analysis was performed to optimize their strength-to-weight ratio, ensuring the bulkheads could safely withstand the high loads encountered during flight.
-
+I designed and built an L3 high-powered rocket, using OpenRocket to predict flight performance and guide structural decisions such as fin thickness and material selection to prevent flutter and divergence. To ensure fin strength, I reinforced the fin section with carbon fiber composites. I prepared and presented a detailed technical briefing to my TAPS for project approval and developed a complete bill of materials and purchase orders to procure all necessary components. Critical flight components, including aluminum bulkheads, were designed, CNC milled, and optimized through FEA analysis to achieve a high strength-to-weight ratio capable of safely withstanding flight loads. The rocket is scheduled for its first flight within the next six months.
 ---
 
-{% include image-gallery.html images="L3.JPEG" height="400" %}
-{% include image-gallery.html images="L3Matt.JPEG" height="400" %}
+{% include image-gallery.html images="L3.JPEG, L3Matt.JPEG" height="400" %}
 
 ---
 
