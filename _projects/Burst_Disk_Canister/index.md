@@ -10,23 +10,17 @@ skills:
   - Tolerancing
   - CNC Milling
   - Hydrostatic Testing
-main-image: /Ankle_Biter.JPEG
+main-image: /IMG_7604.JPEG
 ---
 
 ## Overview
-Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powder ignition at high altitudes. The canister was modeled in SOLIDWORKS CAD, incorporating radial O-ring seals to replace the previous gasket-based design. ANSI tolerancing standards were applied to ensure proper fit and sealing between the O-rings and mating components. Structural integrity was analyzed using SOLIDWORKS FEA and verified through hand calculations of thick-walled pressure vessels. Multiple iterations were developed, each progressively smaller while maintaining performance. Hydrostatic testing validated proper sealing and predictable burst disk activation at the desired pressure.
+Overview & Description:
+Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powder ignition at high altitudes. The canister was modeled in SOLIDWORKS CAD, incorporating radial O-ring seals to replace the previous gasket-based design. ANSI tolerancing standards were applied to ensure proper fit and sealing between the O-rings and mating components. Components were CNC milled and lathed to precise specifications. Component strength was analyzed using SOLIDWORKS FEA and verified through hand calculations of thick-walled pressure vessels. Multiple iterations were developed, each progressively smaller while maintaining performance. Hydrostatic testing validated proper sealing and predictable burst disk activation at the desired pressure.
 
 ---
 
-Version 1: Direct Motor Connection to Weapon
-{% include image-gallery.html images="Ankle_Biter2.JPEG" height="400" %}
-{% include youtube-video.html id="XjRlZ6yxNGA" autoplay= "false"%} 
-
-Version 3: Implemented Weapon Drive Belt
-{% include youtube-video.html id="Sk7qpaN0EQg" autoplay= "false"%}
-
-Version 5: Reinforcements of Version 3 Fundamentals
-{% include image-gallery.html images="Waffles2.png" height="400" %}
+Final Design and CAD:
+{% include image-gallery.html images="IMG_7604.JPEG, CanisterCross.png, PistonMetal.png" height="400" %}
 
 ---
 
