@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Combat Robots
+title: L2 Rocket
 description: Successfully Designed, Manufactured, and Flew a L2 Certification Rocket 
 skills: 
   - Composites
