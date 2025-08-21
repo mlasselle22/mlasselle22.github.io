@@ -8,7 +8,7 @@ skills:
   - CNC Milling
   - OpenRocket Simulation
   - Project Planning
-main-image: /L3Sim.png
+main-image: /IMG_8170.JPEG
 ---
 
 ## Overview
