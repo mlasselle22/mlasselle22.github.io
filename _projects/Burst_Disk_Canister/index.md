@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Burst Disk Canister for Black Powder
+title: Black Powder Burst Disk Canister
 description: Designed and manufactured a high-reliability Burst Disk Canister for a piston ejection system.  
 skills: 
   - Mechanical Design
