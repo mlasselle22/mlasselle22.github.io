@@ -33,7 +33,6 @@ To manufacture the bulkheads, I created CAM toolpaths in Fusion 360 and simulate
 I applied a carbon fiber layup to the fins to increase their stiffness and help prevent fin flutter. I selected a 3K weave and applied three layers in a 90°–45°–90° orientation. Once the carbon fiber plies were fully wetted with epoxy, I used vacuum bagging to remove air bubbles which reduces internal stress concentrations and ensure complete bonding between the plies.
 {% include image-gallery.html images="Layup1.png, Layup2.png" height="400" %
 ---
-
 ## Accomplishments
 Applied simulations to optimize fin design with the goal of preventing flutter and divergence
 
