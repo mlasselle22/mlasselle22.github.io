@@ -8,7 +8,7 @@ skills:
   - CNC Milling
   - OpenRocket Simulation
   - Project Planning
-main-image: /IMG_8170.PNG
+main-image: /IMG_8170.png
 ---
 
 ## Overview
