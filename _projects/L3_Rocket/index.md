@@ -12,10 +12,11 @@ main-image: /IMG_8170.JPEG
 ---
 
 ## Overview
-Designed, built, and prepared for launch of a high-power L3 rocket, targeting L3 certification, which allows the use of M, N, and O impulse class motors. L3 certification requires TAP approval of the rocket design and post-flight analysis, in addition to a successful flight with safe recovery. The rocket was modeled and analyzed in OpenRocket to predict flight performance and guide structural decisions, including fin thickness and material selection, to prevent flutter and divergence. The fin section was reinforced with carbon fiber composites for strength. Aluminum bulkheads and other critical components were CNC-milled and optimized via FEA analysis to achieve a high strength-to-weight ratio capable of withstanding flight loads. A complete bill of materials and procurement plan were developed, and a detailed technical briefing was delivered to TAPS for project approval. The rocket is scheduled for its first flight within the next six months.
+Designed, built, and prepared for launch of a high-power L3 rocket, targeting L3 certification, which allows the use of M, N, and O impulse class motors. L3 certification requires TAP approval of the rocket design and post-flight analysis, in addition to a successful flight with safe recovery. The rocket was modeled and analyzed in OpenRocket to predict flight performance and guide structural decisions, including fin thickness and material selection, to prevent flutter and divergence. The fin section was reinforced with carbon fiber composites for strength. Aluminum bulkheads and other critical components were CNC-milled and optimized via FEA analysis to achieve a high strength-to-weight ratio capable of withstanding flight loads. A complete bill of materials and procurement plan were developed, and a detailed technical briefing was delivered to TAPS for project approval. 
 ---
 
 {% include image-gallery.html images="L3.JPEG, L3Matt.JPEG" height="400" %}
+{% include youtube-video.html id="Rj_beA226i4" autoplay= "false"%} 
 
 ---
 
