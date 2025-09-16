@@ -37,6 +37,7 @@ I applied a carbon fiber layup to the fins to increase their stiffness and help 
 {% include image-gallery.html images="Layup1.png, Layup2.png" height="400" %
 
 ---
+
 ## Accomplishments
 Applied simulations to optimize fin design with the goal of preventing flutter and divergence
 
