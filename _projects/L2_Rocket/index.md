@@ -1,7 +1,7 @@
 ---
 layout: post
 title: L2 Rocket
-order: 11
+order: 9
 description: Successfully Designed, Manufactured, and Flew a L2 Certification Rocket 
 skills: 
   - Composites
