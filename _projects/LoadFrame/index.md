@@ -43,7 +43,7 @@ An LVDT was initially considered to measure sample deformation directly between 
 The system is controlled using Arduino Unos, which communicate via I2C with the stepper drivers, OLED screens, load cell amplifier boards, and SD card modules. This setup enables fast communication, real-time display of a force versus time graph, and logging of data for post-test analysis.
 
 Two push buttons on the controller allow the platens to be moved up or down at a fixed speed. In future iterations, additional testing modes will be integrated into these buttons to enable easier operation at variable speeds.
-
+{% include image-gallery.html images="Arduino.png" height="400" %}
 ---
 
 ## Version 1: Linear Actuator Driven Load Frame
