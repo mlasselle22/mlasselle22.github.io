@@ -33,7 +33,7 @@ The canister were hydrostatically tested to 3000 psi and were ground tested 12 t
 ---
 
 ## Accomplishments
-- Replaced gasket-based sealing with a more reliable radial O-ring design  
-- Optimized multiple design iterations for size reduction without sacrificing structural integrity  
-- Verified FEA results with analytical calculations  
-- Conducted hydrostatic testing to ensure controlled and predictable burst disk activation  
+Replaced gasket-based sealing with a more reliable radial O-ring design  
+Optimized multiple design iterations for size reduction without sacrificing structural integrity  
+Verified FEA results with analytical calculations  
+Conducted hydrostatic testing to ensure controlled and predictable burst disk activation  
