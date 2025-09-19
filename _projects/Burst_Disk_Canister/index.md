@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Black Powder Burst Disk Canister
+order: 10
 description: Designed and manufactured a high-reliability Burst Disk Canister for a piston ejection system.  
 skills: 
   - Mechanical Design
