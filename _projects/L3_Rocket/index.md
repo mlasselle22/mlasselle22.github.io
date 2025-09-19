@@ -5,7 +5,7 @@ order: 1
 description: Designed and built a L3 Rocket for Certification
 skills: 
   - SOLIDWORKS CAD
-  - Ansys Mechanical
+  - Ansys Mechanical FEA 
   - CNC Milling
   - OpenRocket Simulation
   - Project Planning
