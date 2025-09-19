@@ -14,7 +14,7 @@ main-image: /Title.png
 ---
 
 ## Project Summary
-I designed and built a two custom load frame to test the mechanical strength of parts and assemblies.
+I designed and built two custom load frames to test the mechanical strength of parts and assemblies.
 {% include image-gallery.html images="IMG_8980.JPEG, IMG_8981.JPEG" height="400" %}
 ---
 
