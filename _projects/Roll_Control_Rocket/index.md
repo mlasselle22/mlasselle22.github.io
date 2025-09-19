@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Roll Control Rocket
+order: 6
 Description: Designed and developed a fully 3D-printed actively guided rocket with aerodynamic simulations, CAD modeling, and embedded control systems, incorporating servo-actuated fins with PID-based flight control.
 skills:
   - OnShape CAD
