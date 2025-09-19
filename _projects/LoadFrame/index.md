@@ -10,7 +10,7 @@ skills:
   - Iterative Prototyping
   - 3D Printing
   - Arduino IDE
-main-image: /IMG_8980.JPEG
+main-image: /Title.png
 ---
 
 ## Project Summary
