@@ -19,7 +19,7 @@ Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston eje
 
 ---
 ## Analysis
-FEA was performed using Ansys Mechanical and validated with thick-walled pressure vessel calculations. Hydrostatic testing verified proper sealing and predictable burst disk activation at the desired pressure.  
+FEA was performed using Ansys Mechanical and validated with thick-walled pressure vessel calculations. Hydrostatic testing verified proper sealing and predictable burst disk activation at the desired pressure. A 3/16th polyvinyl sheet was used as the burst disk. Through repeated testing it was determined that the polyvinyl would rupture ar 1200psi consistently.
 
 {% include image-gallery.html images="CanisterFEA.png, CanisterFEA2.png" height="400" %}
 ---
