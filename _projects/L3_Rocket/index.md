@@ -12,7 +12,7 @@ main-image: /IMG_8170.png
 ---
 
 ## Overview
-Designed, built, and L3 Certification Rocket. L3 certification requires TAP approval of the rocket design and post-flight analysis, in addition to a successful flight with safe recovery. The rocket was modeled and analyzed in OpenRocket to predict flight performance and guide structural decisions, including fin thickness and material selection, to prevent flutter and divergence. The fin section was reinforced with carbon fiber composites for strength. Aluminum bulkheads and other critical components were CNC-milled and optimized via FEA analysis to achieve a high strength-to-weight ratio capable of withstanding flight loads. A complete bill of materials and procurement plan were developed, and a detailed technical briefing was delivered to TAPS for project approval. 
+Designed, manufactured, and flew a Level 3 Certification Rocket. The project involved 3D modeling, aerodynamic and structural simulations, CNC machining, 3D printing, and design presentations.
 ---
 
 {% include image-gallery.html images="L3.JPEG, L3Matt.JPEG" height="400" %}
@@ -20,10 +20,11 @@ Designed, built, and L3 Certification Rocket. L3 certification requires TAP appr
 ---
 
 I began the rocket design by evaluating the achievable flight velocities for the current fin geometry, focusing on avoiding fin flutter and divergence. Simulations were performed without modeling the carbon fiber layup, providing a conservative estimate and an increased factor of safety for flutter and divergence limits.
-{% include image-gallery.html images="FinSIm2.png, FinSim1.png" height="400" %}
+{% include image-gallery.html images="FinSIm2.png, FinSim1.png" height="300" %}
 ---
 
 Using OpenRocket simulations, I estimated the worst-case recovery load at approximately 500 lbf. I 3D modeled the bulkheads in SOLIDWORKS to distribute these loads throughout the airframe and applied ANSI tolerancing standards to determine appropriate clearances, ultimately selecting an RC8 fitment. I then performed FEA in SOLIDWORKS to ensure all flight components maintained a minimum factor of safety of 3 against material yielding. The FEA was also used to compare several aluminum alloys, allowing me to optimize for performance relative to cost.
+{% include image-gallery.html images="Bulkhead.png" height="400" %}
 
 ---
 
