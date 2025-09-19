@@ -5,7 +5,7 @@ order: 1
 description: Designed and built a L3 Rocket for Certification
 skills: 
   - SOLIDWORKS CAD
-  - SOLIDWORKS FEA
+  - Ansys Mechanical
   - CNC Milling
   - OpenRocket Simulation
   - Project Planning
@@ -17,19 +17,19 @@ Designed, manufactured, and flew a Level 3 Certification Rocket. The project inv
 ---
 
 {% include image-gallery.html images="L3.JPEG, L3Matt.JPEG" height="400" %}
-{% include youtube-video.html id="Rj_beA226i4" autoplay= "false"%} 
+
 ---
 
 I began the rocket design by evaluating the achievable flight velocities for the current fin geometry, focusing on avoiding fin flutter and divergence. Simulations were performed without modeling the carbon fiber layup, providing a conservative estimate and an increased factor of safety for flutter and divergence limits.
 {% include image-gallery.html images="FinSIm2.png, FinSim1.png" height="300" %}
 ---
 
-Using OpenRocket simulations, I estimated the worst-case recovery load at approximately 500 lbf. I 3D modeled the bulkheads in SOLIDWORKS to distribute these loads throughout the airframe and applied ANSI tolerancing standards to determine appropriate clearances, ultimately selecting an RC8 fitment. I then performed FEA in SOLIDWORKS to ensure all flight components maintained a minimum factor of safety of 3 against material yielding. The FEA was also used to compare several aluminum alloys, allowing me to optimize for performance relative to cost.
+Using OpenRocket simulations, I estimated the worst-case recovery load at approximately 500 lbf. I 3D modeled the bulkheads in SOLIDWORKS, designing them to effectively handle and transfer these loads throughout the airframe. I applied ANSI tolerancing standards to determine appropriate clearances and ultimately selected an RC8 fitment. I then performed FEA in Ansys Mechanical to verify that all flight components maintained a minimum factor of safety of 3 against material yielding. Additionally, the FEA allowed me to compare several aluminum alloys, enabling an optimized balance between performance and cost.
 {% include image-gallery.html images="Bulkhead.png, Bulkhead2.png" height="400" %}
 
 ---
 
-To manufacture the bulkheads, I created CAM toolpaths in Fusion 360 and simulated them to ensure all features could be machined within tolerance. I added fillets and radii to reduce manual deburring and stress concentrations and optimized tool selection, cutting speeds, and stepovers for efficient machining and a quality surface finish.
+To manufacture the bulkheads, I created CAM in Fusion 360 and simulated the operations to ensure all features were machinable. I incorporated several tool changes to accommodate a wider variety of features such as fillets.
 {% include image-gallery.html images="Cam1.png, Cam2.png, Bulkhead3.jpg" height="350" %}
 
 ---
@@ -38,6 +38,12 @@ I applied a carbon fiber layup to the fins to increase their stiffness and help 
 {% include image-gallery.html images="Layup1.jpg, Layup2.jpg" height="400" %}
 
 ---
+
+I flew the rocket on a M1550 motor and achieved my level 3 certification!
+{% include youtube-video.html id="Rj_beA226i4" autoplay= "false"%} 
+
+---
+
 ## Accomplishments
 Applied simulations to optimize fin design with the goal of preventing flutter and divergence
 
