@@ -47,11 +47,9 @@ I flew the rocket on a M1550 motor and achieved my level 3 certification!
 ## Accomplishments
 Applied simulations to optimize fin design with the goal of preventing flutter and divergence
 
-Balanced structural integrity and weight through careful material selection and FEA analysis.
+Achieved successful structural design and analysis.
 
-Designed and CNC milled aluminum bulkheads.
-
-Developed a comprehensive BOM and procurement plan to ensure timely acquisition of all components.
+Designed and CNC milled aluminum components.
 
 Delivered a technical presentation to TAPS, demonstrating design rationale, safety considerations, and expected performance.
 
