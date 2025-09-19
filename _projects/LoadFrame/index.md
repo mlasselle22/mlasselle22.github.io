@@ -27,7 +27,7 @@ The platens were 3D-printed from carbon-fiber-reinforced polymers to maximize st
 
 Acme threads were selected to drive the platens because their trapezoidal tooth profile is well-suited to carrying shear loads. During testing, the forces applied to the specimen are transmitted through the threaded rods primarily as shear, making Acme threads an ideal choice for strength and durability.
 
-{% include image-gallery.html images="IMG_8980.JPEG, IMG_8981.JPEG, LoadFrame.png" height="400" %}
+{% include image-gallery.html images="LoadFrame.png" height="400" %}
 ---
 
 ### Hardware
@@ -51,7 +51,7 @@ Two push buttons on the controller allow the platens to be moved up or down at a
 ### Mechanical Design
 The load frame was built around a small crane scale, a linear actuator, and a slider potentiometer sensor. The system was intended to measure mechanical strength in tension with displacement measured through the slider potentiometer. The frame utilized aluminum extrusion as the mounting bracket for all the components and all custom comonents were 3D printed. To better measure the deflection of the sample a correction function was applied to account for deflection in the crane scale hook, which attaches the sample. To determine this function, a sample that was modeled as rigid was tested, and the resulting deflection data was used to create a displacement-per-force relationship which gets subtracted form the sample data in post processing. The use of the correction function requires the assumption that the system deflection was perfectly modeled.  
 
-{% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="200" %}
+{% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="220" %}
 ---
 
 ### Hardware
