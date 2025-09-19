@@ -24,7 +24,7 @@ I began the rocket design by evaluating the achievable flight velocities for the
 ---
 
 Using OpenRocket simulations, I estimated the worst-case recovery load at approximately 500 lbf. I 3D modeled the bulkheads in SOLIDWORKS to distribute these loads throughout the airframe and applied ANSI tolerancing standards to determine appropriate clearances, ultimately selecting an RC8 fitment. I then performed FEA in SOLIDWORKS to ensure all flight components maintained a minimum factor of safety of 3 against material yielding. The FEA was also used to compare several aluminum alloys, allowing me to optimize for performance relative to cost.
-{% include image-gallery.html images="Bulkhead.png" height="400" %}
+{% include image-gallery.html images="Bulkhead.png, Bulkhead2.png" height="400" %}
 
 ---
 
