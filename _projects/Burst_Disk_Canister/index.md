@@ -14,22 +14,30 @@ skills:
 main-image: /IMG_7604.JPEG
 ---
 
-## Overview
-Overview & Description:
-Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powder ignition at high altitudes. The canister was modeled in SOLIDWORKS CAD, incorporating radial O-ring seals to replace the previous gasket-based design. ANSI tolerancing standards were applied to ensure proper fit and sealing between the O-rings and mating components. Components were CNC milled and lathed to precise specifications. Component strength was analyzed using SOLIDWORKS FEA and verified through hand calculations of thick-walled pressure vessels. Multiple iterations were developed, each progressively smaller while maintaining performance. Hydrostatic testing validated proper sealing and predictable burst disk activation at the desired pressure.
+## Project Summary
+Designed and manufactured a burst disk canister to store and ignite black powder to actuate a piston ejection system.
+
+## Design / CAD
+Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powder ignition at high altitudes. The canister was modeled in SOLIDWORKS CAD. ANSI tolerancing standards were applied to ensure proper fit and sealing. A polyvinyl sheet was cut down and used as aburst disk as it is ductile and is the edges are compressed it acts as a sealing surface. The canisters were designed to withstand 6000 psi. I calculated the pressures in the canister during combustion and in the piston cylinder during actuation to prevent vacuum formation. 
+{% include image-gallery.html images="CanisterCross.png, PistonMetal.png" height="400" %}
+
+---
+## Analysis
+FEA was performed using Ansys Mechanical and validated with thick-walled pressure vessel calculations. Hydrostatic testing verified proper sealing and predictable burst disk activation at the desired pressure.  
+
+{% include image-gallery.html images="CanisterFEA.png, CanisterFEA2.png" height="400" %}
+---
+## Manufacturing
+I manufactured the components using CNC mills and lathes. 
+{% include image-gallery.html images="IMG_7604.JPEG, Cut.jpg" height="400" %}
+---
+## Testing
+The canister were hydrostatically tested to 3000 psi and were ground tested 12 times to ensure repeatable burst disk rupturing. The canisters were tested with the piston to ensure they could provide enough pressure to the piston to successfully seperate the rocket.
 
 ---
 
-Final Design and CAD:
-{% include image-gallery.html images="IMG_7604.JPEG, CanisterCross.png, PistonMetal.png" height="400" %}
-
----
-
-## Accomplishments
-Replaced gasket-based sealing with more reliable radial O-ring design
-
-Optimized multiple design iterations for size reduction without sacrificing integrity
-
-Verified FEA results with analytical calculations
-
-Conducted hydrostatic testing to ensure controlled and predictable burst disk activation
+### Accomplishments
+- Replaced gasket-based sealing with a more reliable radial O-ring design  
+- Optimized multiple design iterations for size reduction without sacrificing structural integrity  
+- Verified FEA results with analytical calculations  
+- Conducted hydrostatic testing to ensure controlled and predictable burst disk activation  
