@@ -29,7 +29,7 @@ Using OpenRocket simulations, I estimated the worst-case recovery load at approx
 ---
 
 To manufacture the bulkheads, I created CAM toolpaths in Fusion 360 and simulated them to ensure all features could be machined within tolerance. I added fillets and radii to reduce manual deburring and stress concentrations and optimized tool selection, cutting speeds, and stepovers for efficient machining and a quality surface finish.
-{% include image-gallery.html images="Cam1.png, Cam2.png" height="400" %}
+{% include image-gallery.html images="Cam1.png, Cam2.png, Bulkhead3.png" height="400" %}
 
 ---
 
