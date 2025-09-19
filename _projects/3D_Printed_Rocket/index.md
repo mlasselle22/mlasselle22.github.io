@@ -49,11 +49,17 @@ I successfully flew the rocket on a K850DM. There was no damage sustained by the
 ### Design
 Version 1 utilized PETG and Nylon-6CF, with the flight profile simulated in OpenRocket to guide design decisions. A complete CAD was developed in SOLIDWORKS to allow for easy design and integration of components. All th eparts were designed to be 3D printed except for the bulkheads which transfer recovery loads throughout the rocket. Version 1 utilized a 3D printed piston ejection system as the method of parachute deployment.
 
+---
+
 ### Manufacturing
 The rocket was printed on a custom 3D printer which was designed for printing rockets. All the printed parts were had their wall and infill parameters optmized for strength while keeping the components light weight. The piston ejection system had its 3D printed parts made out of Polycarbonate and Nylon-6CF. The components were printed with a balance between nozzle diameter, layer height and printing temperature. The parts were printed with a 0.6mm nozzle to allow for more heat transfer into the molten plastic. This was to help prevent heat conduction away from the areas being printed and in return cause a strong bond between layers. 
 
+---
+
 ### Material Testing
 To test the strength of the PETG used in the airframe of the rocket, tensile specimens were tensilly loaded at a displacement rate of 0.25 in/s, demonstrating an ultimate strength of 4000 psi. However, due to my testing setup, the load data was not recorded at a fast enough frequency to capture the true failure stress of the material.
+
+---
 
 ### Flight Testing
 The rocket survived the acceleration and coast phase of flight but unfortunately there was a loss of pressuring during the piston actuiation adn the rocket was not able to fully seperate. This led to a sligtly slowed decent but caused critical failure in the vehicle upon landing.
