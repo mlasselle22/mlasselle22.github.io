@@ -32,7 +32,7 @@ There was a substantial difference in the yield stress values obtained using the
 {% include image-gallery.html images="Comparison.png" height="400" %}
 ---
 ## **Reduction in Samples Tested**
-The previous testing method required 20 samples: 10 one-inch-tall samples to measure yield stress and 10 two-inch-tall samples to determine the modulus of elasticity. Testing all 20 samples was time-consuming and required significant technician effort. By comparing the modulus of elasticity measurements across the samples, I found that the yield stress values were nearly identical regardless of sample height. This allowed me to streamline the process by testing only the two-inch-tall samples, which provided accurate modulus measurements while also giving reliable yield stress data.
+The previous testing method required 20 samples: 10 one-inch-tall samples to measure yield stress and 10 two-inch-tall samples to determine the modulus of elasticity. Testing all 20 samples was time-consuming and required significant technician effort. By comparing the yiled stress measurements across the samples, I found that the values were nearly identical regardless of sample height. This allowed me to streamline the process by testing only the two-inch-tall samples, which provided accurate modulus measurements while also giving reliable yield stress data.
 {% include image-gallery.html images="Data1.png" height="400" %}
 ---
 
