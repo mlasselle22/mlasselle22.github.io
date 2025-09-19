@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Etsy Shop
+order: 9
 description: “Founded and operate an Etsy shop specializing in the design, simulation, and 3D printing of model rockets and custom components
 skills:
   - SOLIDWORKS CAD
