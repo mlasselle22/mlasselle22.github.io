@@ -5,7 +5,7 @@ order: 10
 description: Designed, Simulated, and manufactured a Burst Disk Canister to store and ignite black powder for a piston ejection system.
   - Mechanical Design
   - SOLIDWORKS CAD
-  - SOLIDWORKS FEA
+  - Ansys Mechanical FEA
   - O-ring Seal Design
   - Tolerancing
   - CNC Milling
