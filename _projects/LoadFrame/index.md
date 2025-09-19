@@ -15,7 +15,7 @@ main-image: /IMG_8980.JPEG
 
 ## Project Summary
 I designed and built a two custom load frame to test the mechanical strength of parts and assemblies.
-
+{% include image-gallery.html images="IMG_8980.JPEG, IMG_8981.JPEG" height="400" %}
 ---
 
 ## Version 2: 4-Column Displacement-Driven Load Frame
@@ -51,7 +51,7 @@ Two push buttons on the controller allow the platens to be moved up or down at a
 ### Mechanical Design
 The load frame was built around a small crane scale, a linear actuator, and a slider potentiometer sensor. The system was intended to measure mechanical strength in tension with displacement measured through the slider potentiometer. The frame utilized aluminum extrusion as the mounting bracket for all the components and all custom comonents were 3D printed. To better measure the deflection of the sample a correction function was applied to account for deflection in the crane scale hook, which attaches the sample. To determine this function, a sample that was modeled as rigid was tested, and the resulting deflection data was used to create a displacement-per-force relationship which gets subtracted form the sample data in post processing. The use of the correction function requires the assumption that the system deflection was perfectly modeled.  
 
-{% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="400" %}
+{% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="200" %}
 ---
 
 ### Hardware
@@ -61,6 +61,7 @@ The linear actuator moves at a fixed velocity of 0.25 in/s and is not controllab
 
 ### Software
 An Arduino Uno acts as the main control board, with an SD card module used to record and log test data. The load cell amplifier board operates at 80 Hz to enable faster data collection. The slider potentiometer uses a 10-bit analog function, measuring values from 0 to 1023. A linear range within these values was determined through testing, and displacement measurements were taken within this linear range. Communication is done over I2C throughout the components while the SD card module operates on SPI. 
+{% include image-gallery.html images="Code.png" height="400" %}
 
 ---
 
