@@ -2,8 +2,7 @@
 layout: post
 title: Black Powder Burst Disk Canister
 order: 10
-description: Designed and manufactured a high-reliability Burst Disk Canister for a piston ejection system.  
-skills: 
+description: Designed, Simulated, and manufactured a Burst Disk Canister to store and ignite black powder for a piston ejection system.
   - Mechanical Design
   - SOLIDWORKS CAD
   - SOLIDWORKS FEA
@@ -13,9 +12,6 @@ skills:
   - Hydrostatic Testing
 main-image: /IMG_7604.JPEG
 ---
-
-## Project Summary
-Designed and manufactured a burst disk canister to store and ignite black powder to actuate a piston ejection system.
 
 ## Design / CAD
 Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powder ignition at high altitudes. The canister was modeled in SOLIDWORKS CAD. ANSI tolerancing standards were applied to ensure proper fit and sealing. A polyvinyl sheet was cut down and used as aburst disk as it is ductile and is the edges are compressed it acts as a sealing surface. The canisters were designed to withstand 6000 psi. I calculated the pressures in the canister during combustion and in the piston cylinder during actuation to prevent vacuum formation. 
