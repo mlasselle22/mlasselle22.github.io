@@ -29,7 +29,7 @@ The rocket was 3D printed on industrial grade 3D printers out of Ultem 9085 ande
 ---
 
 ### Analysis
-I conducted a custom 3 point bend test on the Nylon-10Cf coupler and it successfully withstood 750 lbf without yielding. The rocket tube was tested in compression and didn't show yielding until 6000lbf. These results verified that my couplers could effectivly transfer the loads throughout the airframe of the rocket.
+I conducted a custom 3 point bend test on the Nylon-10Cf coupler and it successfully withstood 750 lbf without yielding. The rocket tube was tested in compression and didn't show yielding until 6000lbf. These results verified that my couplers could effectively transfer the loads throughout the airframe of the rocket.
 {% include image-gallery.html images="Bending.png, Load.png, NylonBend.jpg" height="400" %}
 ---
 
