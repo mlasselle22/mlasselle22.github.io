@@ -16,11 +16,6 @@ I designed, manufactured, and flight-tested two fully 3D-printed high-powered ro
 
 ---
 
-{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %}
-{% include youtube-video.html id="MT_V2mW7tbM" autoplay="false"%}
-
----
-
 ## Version 2: Ultem 9085 and Nylon-10CF
 
 ### Design
@@ -34,12 +29,11 @@ The rocket was 3D printed on industrial grade 3D printers our of Ultem 9085 ande
 
 ### Analysis
 I tested the Nylon-10CF coupler under bending loads, and it successfully withstood 750 lbf without yielding. The rocket tube was tested under compressive loads up to 6000 lbf and showed no signs of failure. These results verified that my couplers could effectivly transfer the loads throughout the airframe of the rocket.
-{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %}
+{% include image-gallery.html images="Bending.png, Load.png, NylonBend.jpg" height="400" %}
 ---
 
 ### Flight Testing
-I successfully flew the rocket on a K850DM. There was no damage sustained by the rocket.
-{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %}
+{% include image-gallery.html images="IMG_6111.jpeg" height="400" %}
 {% include youtube-video.html id="MT_V2mW7tbM" autoplay="false"%}
 
 ---
@@ -48,7 +42,7 @@ I successfully flew the rocket on a K850DM. There was no damage sustained by the
 
 ### Design
 Version 1 utilized PETG and Nylon-6CF, with the flight profile simulated in OpenRocket to guide design decisions. A complete CAD was developed in SOLIDWORKS to allow for easy design and integration of components. All th eparts were designed to be 3D printed except for the bulkheads which transfer recovery loads throughout the rocket. Version 1 utilized a 3D printed piston ejection system as the method of parachute deployment.
-
+{% include image-gallery.html images="Piston1.png" height="400" %}
 ---
 
 ### Manufacturing
@@ -58,7 +52,7 @@ The rocket was printed on a custom 3D printer which was designed for printing ro
 
 ### Material Testing
 To test the strength of the PETG used in the airframe of the rocket, tensile specimens were tensilly loaded at a displacement rate of 0.25 in/s, demonstrating an ultimate strength of 4000 psi. However, due to my testing setup, the load data was not recorded at a fast enough frequency to capture the true failure stress of the material.
-
+{% include image-gallery.html images="PETG.png" height="400" %}
 ---
 
 ### Flight Testing
