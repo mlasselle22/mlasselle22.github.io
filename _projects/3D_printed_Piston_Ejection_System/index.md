@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 3D Printed Piston Ejection System
+order: 7
 discription: Designed, built, and tested a 3D-printed piston ejection system for high-powered rockets, focusing on stress analysis, material validation, and reliable deployment of parachutes. The system demonstrates that additive manufacturing can replace traditional metal components in critical aerospace applications.
 skills: 
   - Mechanical Design
