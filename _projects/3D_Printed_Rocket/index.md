@@ -1,7 +1,7 @@
----
 layout: post
 title: 3D Printed Rocket
-description: Designed, manufactured, and launched a fully 3D printed 6-foot-tall high-powered rocket
+order: 2
+description: Designed, manufactured, and launched a fully 3D-printed 6-foot-tall high-powered rocket
 skills:
   - SOLIDWORKS CAD
   - Tolerancing
@@ -10,25 +10,66 @@ skills:
 main-image: /IMG_3929.JPEG
 ---
 
-## Overview
-I simulated the rocket’s flight profile and stability in OpenRocket to guide my design choices. A full CAD assembly was created in SOLIDWORKS to ensure proper component fitment and design. The rocket was manufactured using a custom 3D printer with the parts having carefully tuned wall thicknesses and infill orientations to maximize mechanical strength. Material selection was tailored to specific loading conditions — for example, carbon fiber nylon was used for couplers to handle bending loads between rocket tubes. Ground tests validated pressurization-based separation, confirming that parachutes could eploy reliably and that structural components could withstand the required forces. I later improved on version 1 of the rocket by using even stronger materials and further weight optimizing the rocket to reach greater speeds and altitudes.
-
----
-Version 2: Made From Ultem 9085 and Nylon-12CF
-{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %} 
-{% include youtube-video.html id="MT_V2mW7tbM" autoplay= "false"%} 
+## Project Summary
+I designed, manufactured, and flight-tested two fully 3D-printed high-powered rockets. The project included flight simulations, CAD modeling, 3D printing, material testing, and ground validation of systems.
 
 ---
 
-Version 1: Made From PETG and Nylon-6CF
+{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %}
+{% include youtube-video.html id="MT_V2mW7tbM" autoplay="false"%}
+
+---
+
+## Version 2: Ultem 9085 and Nylon-10CF
+
+### Design
+For Version 2, I simulated the flight profile and stability in OpenRocket to guide my design decisions. A full CAD assembly was created in SOLIDWORKS to ensure proper component fitment with utilization of ANSI tolerances. All the parts were specifically designed to be 3D printed. The couplers were designed to withstand high bending and compressive loads.
+{% include image-gallery.html images="Rocket.png, RocketCut.png" height="400" %}
+---
+
+### Manufacturing
+The rocket was 3D printed on industrial grade 3D printers our of Ultem 9085 ande Nylon-10CF. Wall thicknesses and infill orientation was optimized to maximize mechanical strength.
+---
+
+### Analysis
+I tested the Nylon-10CF coupler under bending loads, and it successfully withstood 750 lbf without yielding. The rocket tube was tested under compressive loads up to 6000 lbf and showed no signs of failure. These results verified that my couplers could effectivly transfer the loads throughout the airframe of the rocket.
+{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %}
+---
+
+### Flight Testing
+I successfully flew the rocket on a K850DM. There was no damage sustained by the rocket.
+{% include image-gallery.html images="IMG_6111.jpeg, Rocket.png, RocketCut.png" height="400" %}
+{% include youtube-video.html id="MT_V2mW7tbM" autoplay="false"%}
+
+---
+
+## Version 1: PETG and Nylon-6CF
+
+### Design
+Version 1 utilized PETG and Nylon-6CF, with the flight profile simulated in OpenRocket to guide design decisions. A complete CAD was developed in SOLIDWORKS to allow for easy design and integration of components. All th eparts were designed to be 3D printed except for the bulkheads which transfer recovery loads throughout the rocket. Version 1 utilized a 3D printed piston ejection system as the method of parachute deployment.
+
+### Manufacturing
+The rocket was printed on a custom 3D printer which was designed for printing rockets. All the printed parts were had their wall and infill parameters optmized for strength while keeping the components light weight. The piston ejection system had its 3D printed parts made out of Polycarbonate and Nylon-6CF. The components were printed with a balance between nozzle diameter, layer height and printing temperature. The parts were printed with a 0.6mm nozzle to allow for more heat transfer into the molten plastic. This was to help prevent heat conduction away from the areas being printed and in return cause a strong bond between layers. 
+
+### Material Testing
+To test the strength of the PETG used in the airframe of the rocket, tensile specimens were tensilly loaded at a displacement rate of 0.25 in/s, demonstrating an ultimate strength of 4000 psi. However, due to my testing setup, the load data was not recorded at a fast enough frequency to capture the true failure stress of the material.
+
+### Flight Testing
+The rocket survived the acceleration and coast phase of flight but unfortunately there was a loss of pressuring during the piston actuiation adn the rocket was not able to fully seperate. This led to a sligtly slowed decent but caused critical failure in the vehicle upon landing.
+
 {% include image-gallery.html images="IMG_6996.JPEG, IMG_6995.JPEG" height="400" %}
-{% include youtube-video.html id="xXKfyyOq-eo" autoplay= "false"%} 
+{% include youtube-video.html id="xXKfyyOq-eo" autoplay="false"%}
 
 ---
 
 ## Accomplishments
-Designed, manufactured, and flight-tested a fully 3D-printed rocket
+Designed, manufactured, and flight-tested two fully 3D-printed high-powered rockets.
 
-Incorporated advanced material choices to balance toughness, weight, and printability
+Developed and applied material testing methods for 3D printed polymers
 
-Leveraged simulation to align flight performance expectations with physical build
+Validated systems through ground testing.
+
+Integrated CAD modeling, 3D printing, material science, and experimental validation to deliver functional, high-performance rockets.
+
+Demonstrated the ability to iterate designs between Version 1 and Version 2 to improve performance and material utilization.
+
