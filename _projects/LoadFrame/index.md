@@ -51,7 +51,7 @@ Two push buttons on the controller allow the platens to be moved up or down at a
 ### Mechanical Design
 The load frame was built around a small crane scale, a linear actuator, and a slider potentiometer sensor. The system was intended to measure mechanical strength in tension with displacement measured through the slider potentiometer. The frame utilized aluminum extrusion as the mounting bracket for all the components and all custom comonents were 3D printed. To better measure the deflection of the sample a correction function was applied to account for deflection in the crane scale hook, which attaches the sample. To determine this function, a sample that was modeled as rigid was tested, and the resulting deflection data was used to create a displacement-per-force relationship which gets subtracted form the sample data in post processing. The use of the correction function requires the assumption that the system deflection was perfectly modeled.  
 
-{% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="220" %}
+{% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="210" %}
 ---
 
 ### Hardware
