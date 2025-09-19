@@ -30,7 +30,10 @@ The method I developed utilizes an offset yield criteria as a measure of materia
 ## **Difference in Yield Stress Values Between Methods**
 There was a substantial difference in the yield stress values obtained using the previous test method compared to those measured with the new method I developed. The previous approach consistently overestimated yield stress values, whereas the method I implemented produced results that more accurately reflect the true yield stress of the bulk polymer material. The standard deviations in the data also show a significant improvement. With the old method, yield stress standard deviations could be as high as ±5,000 psi, an unreasonably large variation. In contrast, the new method produces standard deviations in the range of ±200 psi. This improvement not only provides a more precise representation of material behavior but also greatly enhances the reliability and consistency of the measurements. 
 {% include image-gallery.html images="Comparison.png" height="400" %}
-
+---
+## **Reduction in Samples Tested**
+The previous testing method required 20 samples: 10 one-inch-tall samples to measure yield stress and 10 two-inch-tall samples to determine the modulus of elasticity. Testing all 20 samples was time-consuming and required significant technician effort. By comparing the modulus of elasticity measurements across the samples, I found that the yield stress values were nearly identical regardless of sample height. This allowed me to streamline the process by testing only the two-inch-tall samples, which provided accurate modulus measurements while also giving reliable yield stress data.
+{% include image-gallery.html images="Data1.png" height="400" %}
 ---
 
 ## Accomplishments
