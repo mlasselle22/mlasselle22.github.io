@@ -18,7 +18,7 @@ I designed and built a two custom load frame to test the mechanical strength of 
 {% include image-gallery.html images="IMG_8980.JPEG, IMG_8981.JPEG" height="400" %}
 ---
 
-## Version 2: 4-Column Displacement-Driven Load Frame
+## Version 2: 4-Column Stepper Motor Driven Load Frame
 
 ### *Mechanical Design*
 The load frame was designed in SOLIDWORKS using a 4-column architecture to provide greater load capacity and stability. The frame is capable of performing tensile, compressive, and bending tests. I chose a displacement-driven design to ensure specimens were loaded along their central axis, as any misalignment can introduce bending moments. These moments increase the principal stresses in the sample and lead to inaccurate data.
@@ -46,7 +46,7 @@ Two push buttons on the controller allow the platens to be moved up or down at a
 
 ---
 
-## Version 1: Linear Actuator & Crane Scale Load Frame
+## Version 1: Linear Actuator Driven Load Frame
 
 ### *Mechanical Design*
 The load frame was built around a small crane scale, a linear actuator, and a slider potentiometer sensor. The system was intended to measure mechanical strength in tension with displacement measured through the slider potentiometer. The frame utilized aluminum extrusion as the mounting bracket for all the components and all custom comonents were 3D printed. To better measure the deflection of the sample a correction function was applied to account for deflection in the crane scale hook, which attaches the sample. To determine this function, a sample that was modeled as rigid was tested, and the resulting deflection data was used to create a displacement-per-force relationship which gets subtracted form the sample data in post processing. The use of the correction function requires the assumption that the system deflection was perfectly modeled.  
