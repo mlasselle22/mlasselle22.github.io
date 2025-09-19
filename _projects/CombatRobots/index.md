@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Combat Robots
+order: 5
 description: Designed, built, and tested several combat robots for competitions.  
 skills: 
   - Mechanical Design
