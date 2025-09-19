@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom Load Frame
-order: 2
+order: 1
 description: Designed and built a custom load frame
 skills: 
   - Mechanical Design
