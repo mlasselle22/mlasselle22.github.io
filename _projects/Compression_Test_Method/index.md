@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Compression Testing Method
+order: 3
 description: Refined Company Compression Testing Method to Improve Accuracy and Reliability in Material Data
 skills: 
   - Test Method Development
