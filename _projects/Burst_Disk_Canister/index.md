@@ -13,7 +13,7 @@ description: Designed, Simulated, and manufactured a Burst Disk Canister to stor
 main-image: /IMG_7604.JPEG
 ---
 
-## Design / CAD
+## Design
 Designed and developed a Burst Disk Canister for Cyclone Rocketry’s piston ejection system to improve the reliability of black powder ignition at high altitudes. The canister was modeled in SOLIDWORKS CAD. ANSI tolerancing standards were applied to ensure proper fit and sealing. A polyvinyl sheet was cut down and used as aburst disk as it is ductile and is the edges are compressed it acts as a sealing surface. The canisters were designed to withstand 6000 psi. I calculated the pressures in the canister during combustion and in the piston cylinder during actuation to prevent vacuum formation. 
 {% include image-gallery.html images="Canister.png, Canister2.png, PistonMetal.png" height="400" %}
 
