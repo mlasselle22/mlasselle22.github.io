@@ -34,7 +34,7 @@ I conducted a custom 3 point bend test on the Nylon-10Cf coupler and it successf
 ---
 
 ### Flight Testing
-{% include image-gallery.html images="IMG_6111.jpeg" height="400" %} {% include youtube-video.html id="MT_V2mW7tbM" autoplay="false"%}
+{% include image-gallery.html images="IMG_6111.jpeg" height="400" %}
 
 
 ---
