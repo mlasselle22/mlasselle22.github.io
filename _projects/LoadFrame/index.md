@@ -2,12 +2,12 @@
 layout: post
 title: Custom Load Frame
 order: 1
-description: Designed and built a custom load frame
+description: Designed and built a 3D Printed load frame
 skills: 
   - Mechanical Design
   - Displacement Driven-Design
   - SOLIDWORKS CAD
-  - Iterative Prototyping
+  - Instrumentation
   - 3D Printing
   - Arduino IDE
 main-image: /IMG4.PNG
@@ -27,7 +27,7 @@ The platens were 3D-printed from carbon-fiber-reinforced polymers to maximize st
 
 Acme threads were selected to drive the platens because their trapezoidal tooth profile is well-suited to carrying shear loads. During testing, the forces applied to the specimen are transmitted through the threaded rods primarily as shear, making Acme threads an ideal choice for strength and durability.
 
-{% include image-gallery.html images="IMG4.png" height="400" %}
+{% include image-gallery.html images="IMG4.PNG" height="400" %}
 ---
 
 ### *Hardware*
