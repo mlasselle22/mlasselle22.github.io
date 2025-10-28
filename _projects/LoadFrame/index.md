@@ -10,12 +10,12 @@ skills:
   - Iterative Prototyping
   - 3D Printing
   - Arduino IDE
-main-image: /Title.png
+main-image: /IMG4.PNG
 ---
 
 ## Project Summary
 I designed and built two custom load frames to test the mechanical strength of parts and assemblies.
-{% include image-gallery.html images="IMG_8980.JPEG, IMG_8981.JPEG" height="400" %}
+{% include image-gallery.html images="IMG1.jpg, IMG2.jpg, IMG3.jpg" height="400" %}
 ---
 
 ## Version 2: 4-Column Stepper Motor Driven Load Frame
@@ -27,7 +27,7 @@ The platens were 3D-printed from carbon-fiber-reinforced polymers to maximize st
 
 Acme threads were selected to drive the platens because their trapezoidal tooth profile is well-suited to carrying shear loads. During testing, the forces applied to the specimen are transmitted through the threaded rods primarily as shear, making Acme threads an ideal choice for strength and durability.
 
-{% include image-gallery.html images="LoadFrame.png" height="400" %}
+{% include image-gallery.html images="IMG4.png" height="400" %}
 ---
 
 ### *Hardware*
