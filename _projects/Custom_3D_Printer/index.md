@@ -12,7 +12,7 @@ skills:
   - Thermal Testing
   - CNC Milling
   - Klipper
-main-image: /IMG_6584.png
+main-image: /Compensating.png
 ---
 
 ## Overview
