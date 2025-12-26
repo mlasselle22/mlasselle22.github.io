@@ -15,7 +15,7 @@ title: Matt Lasselle's Portfolio # This is what shows up in the tab of the brows
 name: Matt Lasselle
 headline: Mechanical Engineer
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Passionate about advancing aerospace technologies through innovative design, testing, and analysis of mechanical systems. 
+  Passionate about advancing technologies through innovative design, testing, and analysis of mechanical systems. 
   Experienced in developing and validating complex assemblies, from large 3D-printed rockets to precision load frames and high-performance machinery. 
   Skilled in CAD modeling, simulation, and manufacturing processes, with a strong focus on data-driven performance validation.
   Committed to creating efficient, reliable, and high-impact engineering solutions through creative problem solving and hands-on prototyping.
@@ -72,6 +72,7 @@ skills:
     - Breadboarding for circuit testing
   - category: Simulation
     tools:
+    - ANSYS Mechanical
     - SOLIDWORKS FEA
     - SOLIDWORKS CFD
   - category: Design Standards / Practices
