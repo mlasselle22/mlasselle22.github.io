@@ -10,7 +10,7 @@ skills:
   - Instrumentation
   - 3D Printing
   - Arduino IDE
-main-image: /IMG4.PNG
+main-image: /LoadFrame.PNG
 ---
 
 ## Project Summary
