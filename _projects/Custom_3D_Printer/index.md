@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom 3D Printer
-order: 8
+order: 4
 description: Designed, built, and calibrated a custom 3D printer for the manufacturing of large components
 skills: 
   - Mechanical Design
