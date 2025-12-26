@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Black Powder Burst Disk Canister
-order: 5
+order: 6
 description: Designed, Simulated, and manufactured a Burst Disk Canister to store and ignite black powder for a piston ejection system.
   - Mechanical Design
   - SOLIDWORKS CAD
