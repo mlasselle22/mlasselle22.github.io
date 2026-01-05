@@ -20,7 +20,9 @@ Designed, manufactured, and test fired a solid rocket engine utilizing a custom 
 I began the development process by defining the grain geometry and propellant characteristics using OpenMotor. This analysis was important for establishing the required engine casing dimensions as well as the anticipated chamber pressure and overall pressure rating for the system. The engine casing was made form aluminum 6061-T6 and turned down to size on a manual lathe. Radial bolts were used to fasten the nozzle and forward bulkhead to the casing. To prevent the aluminum casing from annealing or melting, the RNX-57 propellent was cast into a polycarbonate liner which was chosen over traditional liner material like phenolic. This choice was made due to an uncommon grain size.
 
 The primary failure mode of the rocket engine was intentionally designed to be nozzle ejection caused by bolt tear-out in the 3D printed nozzle. This approach ensures that, in the event of an over-pressurization scenario, the nozzle releases before the motor casing bursts. Due to the anisontropic behavior of 3D printed components, I strength tested tensile samples in the orientation the nozzle be loaded in. I used the failure stress values from the tensile tesing in my tear out calculations.
+<div style="text-align:center;">
 {% include image-gallery.html images="Strong.png" height="400" %}
+</div>
 
 For testing, I designed and built a custom test stand that incorporated a 20 kg load cell for thrust measurement, a 1600-psi pressure transducer for chamber pressure data, and a standard thermocouple for temperature monitoring. The test stand was 3D printed out of a PA6-GF blend which made it tough and heat resistant. 
 
