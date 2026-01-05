@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solid Rocket Engine
-order: 2
+order: 1
 description: Designed, Manufactured, and Tested a Solid Rocket Engine
 skills: 
   - SOLIDWORKS CAD
