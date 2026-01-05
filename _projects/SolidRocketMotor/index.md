@@ -9,48 +9,44 @@ skills:
   - Manual Lathing
   - OpenMotor Simulation
   - 
-main-image: /IMG_8170.png
+main-image: /Cover.png
 ---
 
 ## Project Summary
-Designed, manufactured, and flew a Level 3 Certification Rocket. The project involved 3D modeling, aerodynamic and structural simulations, CNC machining, 3D printing, and design presentations.
----
-
-{% include image-gallery.html images="L3.JPEG, L3Matt.JPEG" height="400" %}
+Designed, manufactured, and test fired a solid rocket engine utilizing a custom test stand that records thrust, chamber pressure, casing temperature, and time.
 
 ---
 
-I began the rocket design by evaluating the achievable flight velocities for the current fin geometry, focusing on avoiding fin flutter and divergence. Simulations were performed without modeling the carbon fiber layup, providing a conservative estimate and an increased factor of safety for flutter and divergence limits.
-{% include image-gallery.html images="FinSIm2.png, FinSim1.png" height="300" %}
----
+I began the development process by defining the grain geometry and propellant characteristics using OpenMotor. This analysis was important for establishing the required motor casing dimensions as well as the anticipated chamber pressure and overall pressure rating for the system. All CAD modeling and design work was completed in SolidWorks.
 
-Using OpenRocket simulations, I estimated the worst-case recovery load at approximately 500 lbf. I 3D modeled the bulkheads in SOLIDWORKS, designing them to effectively handle and transfer these loads throughout the airframe. I applied ANSI tolerancing standards to determine appropriate clearances and ultimately selected an RC8 fitment. I then performed FEA in Ansys Mechanical to verify that all flight components maintained a minimum factor of safety of 3 against material yielding. Additionally, the FEA allowed me to compare several aluminum alloys, enabling an optimized balance between performance and cost.
-{% include image-gallery.html images="Bulkhead.png, Bulkhead2.png" height="400" %}
+For testing, I designed and built a custom test stand that incorporated a 20 kg load cell for thrust measurement, a 1600-psi pressure transducer for chamber pressure data, and a standard thermocouple for temperature monitoring.
 
----
-
-To manufacture the bulkheads, I created CAM in Fusion 360 and simulated the operations to ensure all features were machinable. I incorporated several tool changes to accommodate a wider variety of features such as fillets.
-{% include image-gallery.html images="Cam1.png, Cam2.png, Bulkhead3.jpg" height="350" %}
+In the initial design iterations, I experimented with a fully 3D-printed nozzle to help quantify how fast a PAHT-CF Nozzle will erode.
+{% include image-gallery.html images="BeanCross.PNG, TestStandCAD.PNG, TestStand.JPEG" height="400" %}
 
 ---
 
-I applied a carbon fiber layup to the fins to increase their stiffness and help prevent fin flutter. I selected a 3K weave and applied three layers in a 90°–45°–90° orientation. Once the carbon fiber plies were fully wetted with epoxy, I used vacuum bagging to remove air bubbles which reduces internal stress concentrations and ensure complete bonding between the plies.
-{% include image-gallery.html images="Layup1.jpg, Layup2.jpg" height="400" %}
+The first test fire of the motor was largely unsuccessful. The fully 3D-printed nozzle experienced significant throat erosion early in the burn, which prevented chamber pressure from rising to the expected levels. As a result, the motor produced almost zero thrust and exhibited an abnormally long burn duration.
+{% include youtube-video.html id="hvGe_DdZvI0" autoplay= "false"%} 
+{% include image-gallery.html images="Burned.jpg" height="400" %}
 
 ---
 
-I flew the rocket on a M1550 motor and achieved my level 3 certification!
-{% include youtube-video.html id="Rj_beA226i4" autoplay= "false"%} 
+From the data collected during the first test fire, I determined that a high-temperature resistant nozzle material such as phenolic or graphite would be required to minimize throat wear. I sourced large-diameter graphite welding rods and machined these into nozzle inserts. The throat was drilled through each insert, and I used the custom load frame I previously developed to press-fit the graphite insert into the nozzle housing using a locational fit. Finally, I machined the internal contour with a chamfer mill to create the desired convergence angle.
+{% include image-gallery.html images="BeanGraphite.PNG, Graphite.jpg" height="350" %}
 
 ---
 
-## Accomplishments
-Applied simulations to optimize fin design with the goal of preventing flutter and divergence
+The second test fire was significantly more successful. From the flame geometry, it was apparent that the nozzle maintained a more convergent flow throughout the burn. Whereas in the first test fire the flame diameter progressively increased as the nozzle eroded.
 
-Achieved successful structural design and analysis.
+During the second test, I successfully recorded thrust data; however, chamber pressure data was not captured. I believe this was due to selecting a pressure transducer with a measurement range that was too high for the expected operating pressure. I also believe the motor underperformed which resulted in a low chamber pressure. Based on the nozzle geometry and the use of RNX-57 propellant (which has a relatively slow burn rate), the predicted chamber pressure was approximately 60 psi. The lower than expected chamber pressure combined with the oversized sensor range likely resulted in an unusable pressure signal.
 
-Designed and CNC milled aluminum components.
+One observation from the thrust curve was that the measured thrust plateaued at roughly 0.8 lbf and did not decay toward the end of the burn. From the video of the second test fire, it can be seen that the flame decreases significantly at the end of the burn which should have showed up on the thrust curve as a decrease in thrust. I suspect the motor may have been mechanically constrained in the test stand during firing, preventing the load cell from fully capturing changes in thrust over time. As a result, the apparent flat thrust profile is likely not representative of the true motor performance.
+{% include youtube-video.html id="kIxFK-ynPI4" autoplay= "false"%} }
+{% include image-gallery.html images="TestFire2ThrustCurve.png" height="400" %}
 
-Delivered a technical presentation to TAPS, demonstrating design rationale, safety considerations, and expected performance.
+---
 
-Integrated simulation, fabrication, and project management skills to successfully bring the rocket from concept to flight-ready hardware.
+## Closing Thoughts
+Through this project, I gained significant hands-on experience ranging from data acquisition and instrumentation to pressure-vessel design and manufacturing. Moving forward, I plan to revise the sensor selection by choosing a lower-range pressure transducer. I also intend to reevaluate the test stand design to identify any mechanical constraints that may have influenced the thrust measurements. Additionally, I would like to test the motor casing using a higher-thrust propellant such as KNSU to evaluate the performance at elevated chamber pressures and thrusts.
+
