@@ -17,7 +17,10 @@ Designed, manufactured, and test fired a solid rocket engine utilizing a custom 
 
 ---
 
-I began the development process by defining the grain geometry and propellant characteristics using OpenMotor. This analysis was important for establishing the required engine casing dimensions as well as the anticipated chamber pressure and overall pressure rating for the system. The engine casing was made form aluminum 6061-T6 and turned down to size on a manual lathe. Radial bolts were used to fasten the nozzle and forward bulkhead to the casing. To prevent the aluminum casing from annealing or melting, the RNX-57 propellent was cast into a polycarbonate liner which was chosen over traditional liner material like phenolic. This choice was made due to an uncommon grain size.
+I began the development process by defining the grain geometry and propellant characteristics using OpenMotor. This analysis was important for establishing the required engine casing dimensions as well as the anticipated chamber pressure and overall pressure rating for the system.
+{% include image-gallery.html images="OpenMotor.png" height="400" %}
+
+The engine casing was made form aluminum 6061-T6 and turned down to size on a manual lathe. Radial bolts were used to fasten the nozzle and forward bulkhead to the casing. To prevent the aluminum casing from annealing or melting, the RNX-57 propellent was cast into a polycarbonate liner which was chosen over traditional liner material like phenolic. This choice was made due to an uncommon grain size.
 
 The primary failure mode of the rocket engine was intentionally designed to be nozzle ejection caused by bolt tear-out in the 3D printed nozzle. This approach ensures that, in the event of an over-pressurization scenario, the nozzle releases before the motor casing bursts. Due to the anisontropic behavior of 3D printed components, I strength tested tensile samples in the orientation the nozzle be loaded in. I used the failure stress values from the tensile tesing in my tear out calculations.
 <div style="text-align:center;">
