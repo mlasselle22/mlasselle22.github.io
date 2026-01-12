@@ -1,7 +1,7 @@
 ---
 layout: post
 title: L3 Rocket
-order: 2
+order: 4
 description: Designed and built a L3 Rocket for Certification
 skills: 
   - SOLIDWORKS CAD
