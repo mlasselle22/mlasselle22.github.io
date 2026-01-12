@@ -16,7 +16,7 @@ main-image: /Compensating1.PNG
 I designed and manufactured a custom dual-extrusion 3D printer that utilizes a servo-actuated secondary nozzle to enable multi-material printing. The development of the printer required multiple design iterations and extensive testing to validate mechanical performance, thermal behavior, and reliability. This project allowed me to apply SolidWorks for both CAD modeling and finite element analysis while also further developing my skills in DC electronics and klipper.
 
 ---
-VERSION 1: 
+## VERSION 1: 
 
 ---
 
@@ -26,7 +26,7 @@ While this version was capable of producing large parts such as rocket component
 Version 1: Printing a Rocket
 {% include image-gallery.html images="IMG_6583.png, IMG_6585.png" height="400" %} 
 ---
-VERSION 2:
+## VERSION 2:
 
 ---
 
@@ -47,7 +47,7 @@ While Version 2 significantly improved reliability over Version 1, it was limite
 Tensile Testing Data:
 {% include image-gallery.html images="PLAInitial.png, PLAP1S.png" height="400" %}
 ---
-VERSION 3:
+## VERSION 3:
 
 ---
 
@@ -59,7 +59,7 @@ The printer toolhead was also fully redesigned to incorporate a servo-actuated s
 {% include image-gallery.html images="Compensating1.PNG" height="400" %} 
 {% include image-gallery.html images="ToolHeadFull.PNG, ToolHead.PNG" height="400" %} 
 ---
-VERSION 4:
+## VERSION 4:
 
 ---
 
