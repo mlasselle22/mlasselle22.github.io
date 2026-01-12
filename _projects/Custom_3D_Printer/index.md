@@ -42,7 +42,8 @@ Tensile testing was performed on printed samples and compared against parts prod
 
 While Version 2 significantly improved reliability over Version 1, it was limited by low print speed and the inability to run custom firmware.
 
-{% include image-gallery.html images="IMG_8933.JPEG, Printer_Screenshot.png" height="400" %} 
+{% include image-gallery.html images="IMG_8933.JPEG, Printer_Screenshot.png" height="400" %}
+
 Tensile Testing Data:
 {% include image-gallery.html images="PLAInitial.png, PLAP1S.png" height="400" %}
 ---
