@@ -4,11 +4,9 @@ title: Custom Load Frame
 order: 1
 description: Designed and built a 3D Printed load frame
 skills: 
-  - Mechanical Design
-  - Displacement Driven-Design
-  - SOLIDWORKS CAD
+  - SOLIDWORKS CAD and FEA
   - Instrumentation
-  - 3D Printing
+  - Additive Manufacturing
   - Arduino IDE
 main-image: /LoadFrame.PNG
 ---
@@ -63,12 +61,5 @@ The linear actuator moves at a fixed velocity of 0.25 in/s and is not controllab
 An Arduino Uno acts as the main control board, with an SD card module used to record and log test data. The load cell amplifier board operates at 80 Hz to enable faster data collection. The slider potentiometer uses a 10-bit analog function, measuring values from 0 to 1023. A linear range within these values was determined through testing, and displacement measurements were taken within this linear range. Communication is done over I2C throughout the components while the SD card module operates on SPI. 
 {% include image-gallery.html images="Code.png" height="400" %}
 
----
 
-## Accomplishments
-Iterative design process improved system capability and performance.   
-
-Integrated electronics provided both live readouts and logged test data.  
-
-Capable of tension, compression, and bending experiments on custom parts.  
 
