@@ -42,15 +42,3 @@ I applied a carbon fiber layup to the fins to increase their stiffness and help 
 I flew the rocket on a M1550 motor and achieved my level 3 certification!
 {% include youtube-video.html id="Rj_beA226i4" autoplay= "false"%} 
 
----
-
-## Accomplishments
-Applied simulations to optimize fin design with the goal of preventing flutter and divergence
-
-Achieved successful structural design and analysis.
-
-Designed and CNC milled aluminum components.
-
-Delivered a technical presentation to TAPS, demonstrating design rationale, safety considerations, and expected performance.
-
-Integrated simulation, fabrication, and project management skills to successfully bring the rocket from concept to flight-ready hardware.
