@@ -16,7 +16,7 @@ main-image: /Compensating1.PNG
 I designed and manufactured a custom dual-extrusion 3D printer that utilizes a servo-actuated secondary nozzle to enable multi-material printing. The development of the printer required multiple design iterations and extensive testing to validate mechanical performance, thermal behavior, and reliability. This project allowed me to apply SolidWorks for both CAD modeling and finite element analysis while also further developing my skills in DC electronics and klipper.
 
 ---
-VERSION 1:
+VERSION 1: 
 Version 1 of the printer focused exclusively on increasing build volume and used only standard electronics for a basic FDM 3D printer. It was built around an Ender 3 V2 control board running pre-compiled Marlin firmware. 
 
 While this version was capable of producing large parts such as rocket components and manufacturing fixtures, it lacked the reliability and consistent performance required for more advanced, long-term use.
