@@ -5,8 +5,9 @@ order: 1
 description: Designed, Manufactured, and Tested a Solid Rocket Engine
 skills: 
   - SOLIDWORKS CAD
-  - Ansys Mechanical FEA 
+  - Ansys Mechanical
   - Manual Lathing
+  - Additive Manufacturing
   - OpenMotor Simulation
     
 main-image: /Cover.png
