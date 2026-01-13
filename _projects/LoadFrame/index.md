@@ -41,7 +41,7 @@ An LVDT was initially considered to measure sample deformation directly between 
 ## Software
 The system is controlled using three Arduino Unos, which communicate via I2C with the stepper drivers, OLED screens, load cell amplifier boards, SD card modules, and digital calipers. This setup allows fast communication, real-time display of the applied load, and logging of data for post-test analysis.
 
-Two push buttons on the controller allow the platens to be moved up or down at a fixed speed of 2 inches per minute. In future iterations, additional testing modes will be integrated into these buttons to enable easier operation at variable speeds.
+Two push buttons on the controller allow the platens to be moved up or down at a fixed speed of 2 inches per minute. In future iterations, additional testing modes will be integrated into these buttons to enable easier operation at variable speeds. 
 ---
 
 ## Testing
