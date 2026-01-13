@@ -22,9 +22,9 @@ I designed and built a custom mechanical load frame capable of outputting 1200 l
 
 The load frame was designed in SolidWorks using a four-column design to increase its load capacity. The system is capable of performing tensile, compressive, and bending tests on a wide range of parts and assemblies. Interchangeable jaws and fixtures are mounted using a single M16 bolt head, allowing test hardware to be quickly swapped to accommodate different specimen geometries. Acme lead screws drive the platens due to their trapezoidal thread profile and high load-carrying capability under both shear and axial forces.
 The test platens were fabricated from carbon-fiber-reinforced Nylon-12 to maximize stiffness. The carbon fiber reinforcement significantly increases the elastic modulus of the polymer, reducing bending and elastic deformation under load. Platen thickness was optimized to limit deflection under the design load of 1200 lbf, with an allowable deflection target of 0.0125 inches. Finite element analysis was performed in ANSYS Mechanical, predicting a maximum deflection of 0.0099 inches at 1200 lbf
-{% include image-gallery.html images="PlatenDeflection.png" height="400" %}
+{% include image-gallery.html images="PlatenDelfection.png" height="400" %}
 Deflection of the motor mounting brackets was also analyzed, as excessive deformation could lead to mechanical binding and restricted motion in the drive system. Maximum allowable deflections were set to 0.005 in perpendicular to the applied load and 0.01 in parallel to the load direction. Finite element analysis showed a maximum deflection of 0.001 in perpendicular to the load and 0.006 in parallel to the load.
-{% include image-gallery.html images="MotorBracket.png, MotorBracket2" height="400" %}
+{% include image-gallery.html images="MotorBracket.png, MotorBracket2.png" height="400" %}
 Because the platens and motor brackets were produced using FDM additive manufacturing, the predicted deflections from finite element analysis will not match the true deflection due to anisotropy in the printed material. However, finite element analysis estimates served as an estimate. The material properties for the analysis were taken from the Nylon-12CF datasheet for the specific filament used, and the strength and elastic modulus were assumed to be from the weakest print orientation.  
 {% include image-gallery.html images="IMG4.PNG" height="400" %}
 ---
@@ -41,15 +41,15 @@ An LVDT was initially considered to measure sample deformation directly between 
 ## Software
 The system is controlled using three Arduino Unos, which communicate via I2C with the stepper drivers, OLED screens, load cell amplifier boards, SD card modules, and digital calipers. This setup allows fast communication, real-time display of the applied load, and logging of data for post-test analysis.
 
-Two push buttons on the controller allow the platens to be moved up or down at a fixed speed of 2 inches per minute. In future iterations, additional testing modes will be integrated into these buttons to enable easier operation at variable speeds. 
----
+Two push buttons on the controller allow the platens to be moved up or down at a fixed speed of 2 inches per minute. In future iterations, additional testing modes will be integrated into these buttons to enable easier operation at variable speeds.
 
+---
 ## Testing
 
 The Mechanical Load Frame has been very useful in quanitfiyng strengths of different parts and assemblies. For example, I have been able to utilize the load frame to test the strength of forged carbon fiber airbrake pads. I was able to make custom jaws to apply loads and moments of the pad exactly how they would be applied in flight conditions.
 ---
 ### *Airbrake Pad Fixturing and Test Data*
-{% include image-gallery.html images="Airbrake.PNG, AirbrakeData.PNG" height="400" %}
+{% include image-gallery.html images="Airbrake.PNG, AirbrakeData.png" height="400" %}
 ---
 
 The load frame has also been used to generate mechanical property data for additively manufactured materials. Because FDM-printed components are inherently anisotropic, it can be difficult to predict part strength without direct testing accurately. To address this, I performed mechanical testing on printed specimens. I used the resulting data to inform both hand calculations and finite element analysis, eliminating some of the need for directly test. For example, a PET-CF17 blend that I used in my dual-extrusion printer was characterized through testing, allowing for realistic strength and stiffness values to be applied during the design. However, I should still test 3D printed components where possible, as many factors affect their strength, including heat transfer, perimeter, infill, and the moisture content of the filament. The data gathered just gives me a much better idea of the strength to expect.
