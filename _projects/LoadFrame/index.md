@@ -46,12 +46,12 @@ Two push buttons on the controller allow the platens to be moved up or down at a
 ---
 ## Testing
 The Mechanical Load Frame has been very useful in quanitfiyng strengths of different parts and assemblies. For example, I have been able to utilize the load frame to test the strength of forged carbon fiber airbrake pads. I was able to make custom jaws to apply loads and moments of the pad exactly how they would be applied in flight conditions.
----
+
 ### *Airbrake Pad Fixturing and Test Data*
 {% include image-gallery.html images="Airbrake.PNG, AirbrakeData.png" height="400" %}
 ---
 The load frame has also been used to generate mechanical property data for additively manufactured materials. Because FDM-printed components are inherently anisotropic, it can be difficult to predict part strength without direct testing accurately. To address this, I performed mechanical testing on printed specimens. I used the resulting data to inform both hand calculations and finite element analysis, eliminating some of the need for directly test. For example, a PET-CF17 blend that I used in my dual-extrusion printer was characterized through testing, allowing for realistic strength and stiffness values to be applied during the design. However, I should still test 3D printed components where possible, as many factors affect their strength, including heat transfer, perimeter, infill, and the moisture content of the filament. The data gathered just gives me a much better idea of the strength to expect.
----
+
 ### *PET-CF17 Tensile Data XZ Orientation*
 {% include image-gallery.html images="PETCF17Data.png" height="400" %}
 ---
