@@ -4,62 +4,58 @@ title: Custom Load Frame
 order: 1
 description: Designed and built a 3D Printed load frame
 skills: 
-  - SOLIDWORKS CAD and FEA
+  - SOLIDWORKS CAD
+  - ANSYS Mechanical
   - Instrumentation
   - Additive Manufacturing
   - Arduino IDE
+  - Material Testing
 main-image: /LoadFrame.PNG
 ---
 
 ## Project Summary
-I designed and built two custom load frames to test the mechanical strength of parts and assemblies.
+I designed and built a custom mechanical load frame capable of outputting 1200 lbf with 6 inches of travel to measure the tensile, compressive, and bending strength of a wide range of parts and assemblies.
 {% include image-gallery.html images="IMG1.jpg, IMG2.jpg, IMG3.jpg" height="400" %}
 ---
 
-## Version 2: 4-Column Stepper Motor Driven Load Frame
+## 4-Column Mechanical Load Frame
 
-### *Mechanical Design*
-The load frame was designed in SOLIDWORKS using a 4-column architecture to provide greater load capacity and stability. The frame is capable of performing tensile, compressive, and bending tests. I chose a displacement-driven design to ensure specimens were loaded along their central axis, as any misalignment can introduce bending moments. These moments increase the principal stresses in the sample and lead to inaccurate data.
-
-The platens were 3D-printed from carbon-fiber-reinforced polymers to maximize stiffness and minimize deflection under load. Carbon fibers within the polymer matrix significantly improve rigidity, while the platen thickness was optimized to reduce bending stresses. Since the area moment of inertia for a rectangular cross-section is given by 𝐼=1/12𝑏ℎ^3 increasing thickness (ℎ) provides a cubic improvement in stiffness against bending.
-
-Acme threads were selected to drive the platens because their trapezoidal tooth profile is well-suited to carrying shear loads. During testing, the forces applied to the specimen are transmitted through the threaded rods primarily as shear, making Acme threads an ideal choice for strength and durability.
-
+The load frame was designed in SolidWorks using a four-column design to increase its load capacity. The system is capable of performing tensile, compressive, and bending tests on a wide range of parts and assemblies. Interchangeable jaws and fixtures are mounted using a single M16 bolt head, allowing test hardware to be quickly swapped to accommodate different specimen geometries. Acme lead screws drive the platens due to their trapezoidal thread profile and high load-carrying capability under both shear and axial forces.
+The test platens were fabricated from carbon-fiber-reinforced Nylon-12 to maximize stiffness. The carbon fiber reinforcement significantly increases the elastic modulus of the polymer, reducing bending and elastic deformation under load. Platen thickness was optimized to limit deflection under the design load of 1200 lbf, with an allowable deflection target of 0.0125 inches. Finite element analysis was performed in ANSYS Mechanical, predicting a maximum deflection of 0.0099 inches at 1200 lbf
+{% include image-gallery.html images="PlatenDeflection.png" height="400" %}
+Deflection of the motor mounting brackets was also analyzed, as excessive deformation could lead to mechanical binding and restricted motion in the drive system. Maximum allowable deflections were set to 0.005 in perpendicular to the applied load and 0.01 in parallel to the load direction. Finite element analysis showed a maximum deflection of 0.001 in perpendicular to the load and 0.006 in parallel to the load.
+{% include image-gallery.html images="MotorBracket.png, MotorBracket2" height="400" %}
+Because the platens and motor brackets were produced using FDM additive manufacturing, the predicted deflections from finite element analysis will not match the true deflection due to anisotropy in the printed material. However, finite element analysis estimates served as an estimate. The material properties for the analysis were taken from the Nylon-12CF datasheet for the specific filament used, and the strength and elastic modulus were assumed to be from the weakest print orientation. 
 {% include image-gallery.html images="IMG4.PNG" height="400" %}
 ---
 
-### *Hardware*
+## Hardware
 The system integrates stepper motor drivers, Arduino Unos, OLED screens, load cells, amplifier boards, and SD card modules to enable real-time display and accurate data logging for post-test analysis. All cross braces are 3D-printed and fastened to the columns using 3/8-inch bolted joints. The stepper motors are specked to produce 3 Nm of torque and are powered at 24 volts. The motors use TMC2209 drivers with a the current limiter set to 1.55A.
 
-A 4400 lbf load cell serves as the primary force measurement device. While specimens are typically tested at 20–80% of a load cell’s maximum capacity for optimal accuracy, validation confirmed that the load reading is linear across the full range (0–4400 lbf). This ensures reliable measurements at any point on the load curve. The load cell is paired with an amplifier board running at 80 Hz for fast data collection.
+A 4400 lbf load cell serves as the primary force measurement device. While specimens are typically tested at 20–80% of a load cell’s maximum capacity for optimal accuracy, validation confirmed that the load reading is linear across the full range (0–4400 lbf). The load cell is paired with an amplifier board running at 80 Hz for fast data collection.
 
-An LVDT was initially considered to measure sample deformation directly between the platens. However, this introduced error because the measured displacement included both sample and system deformation, and excessive sensor noise further reduced reliability. Instead, platen separation is measured by counting stepper motor steps. This method introduces similar errors, as system deflection is included and skipped steps are not captured. However, encoders can be used in the future to ensure missed steps are accounted for.
-
----
-
-### *Software*
-The system is controlled using Arduino Unos, which communicate via I2C with the stepper drivers, OLED screens, load cell amplifier boards, and SD card modules. This setup enables fast communication, real-time display of a force versus time graph, and logging of data for post-test analysis.
-
-Two push buttons on the controller allow the platens to be moved up or down at a fixed speed. In future iterations, additional testing modes will be integrated into these buttons to enable easier operation at variable speeds.
-{% include image-gallery.html images="Arduino.png" height="400" %}
----
-
-## Version 1: Linear Actuator Driven Load Frame
-
-### *Mechanical Design*
-The load frame was built around a small crane scale, a linear actuator, and a slider potentiometer sensor. The system was intended to measure mechanical strength in tension with displacement measured through the slider potentiometer. The frame utilized aluminum extrusion as the mounting bracket for all the components and all custom comonents were 3D printed. To better measure the deflection of the sample a correction function was applied to account for deflection in the crane scale hook, which attaches the sample. To determine this function, a sample that was modeled as rigid was tested, and the resulting deflection data was used to create a displacement-per-force relationship which gets subtracted form the sample data in post processing. The use of the correction function requires the assumption that the system deflection was perfectly modeled.  
-
-{% include image-gallery.html images="IMG_8924.JPEG, IMG_8925.JPEG, IMG_8926.JPEG, IMG_8927.JPEG" height="210" %}
----
-
-### *Hardware*
-The linear actuator moves at a fixed velocity of 0.25 in/s and is not controllable. It includes a built-in voltage regulator, allowing consistent speed across an input range of 5 to 24 volts. Due to the built in voltage regulator, a lipo battery can be used to power the system as voltage sage won't affect the output speed of the actuator. All joints use M5 bolts and T nuts to allow for each part of the system to be adjusted along the aluminum extrusion.
+An LVDT was initially considered to measure sample deformation directly between the platens. However, this introduced error because the measured displacement included both sample and system deformation, and excessive sensor noise further reduced reliability. Instead, platen separation is measured by utilizing a pair of digital calipers that is connected to the DAQ. This method introduces similar errors, as system deflection is included in the measurement. However, there is very little to no noise when utilizing the digital calipers.
 
 ---
 
-### *Software*
-An Arduino Uno acts as the main control board, with an SD card module used to record and log test data. The load cell amplifier board operates at 80 Hz to enable faster data collection. The slider potentiometer uses a 10-bit analog function, measuring values from 0 to 1023. A linear range within these values was determined through testing, and displacement measurements were taken within this linear range. Communication is done over I2C throughout the components while the SD card module operates on SPI. 
-{% include image-gallery.html images="Code.png" height="400" %}
+## Software
+The system is controlled using three Arduino Unos, which communicate via I2C with the stepper drivers, OLED screens, load cell amplifier boards, SD card modules, and digital calipers. This setup allows fast communication, real-time display of the applied load, and logging of data for post-test analysis.
 
+Two push buttons on the controller allow the platens to be moved up or down at a fixed speed of 2 inches per minute. In future iterations, additional testing modes will be integrated into these buttons to enable easier operation at variable speeds.
+---
+
+## Testing
+
+The Mechanical Load Frame has been very useful in quanitfiyng strengths of different parts and assemblies. For example, I have been able to utilize the load frame to test the strength of forged carbon fiber airbrake pads. I was able to make custom jaws to apply loads and moments of the pad exactly how they would be applied in flight conditions.
+---
+### *Airbrake Pad Fixturing and Test Data*
+{% include image-gallery.html images="Airbrake.PNG, AirbrakeData.PNG" height="400" %}
+---
+
+The load frame has also been used to generate mechanical property data for additively manufactured materials. Because FDM-printed components are inherently anisotropic, it can be difficult to predict part strength without direct testing accurately. To address this, I performed mechanical testing on printed specimens. I used the resulting data to inform both hand calculations and finite element analysis, eliminating some of the need for directly test. For example, a PET-CF17 blend that I used in my dual-extrusion printer was characterized through testing, allowing for realistic strength and stiffness values to be applied during the design. However, I should still test 3D printed components where possible, as many factors affect their strength, including heat transfer, perimeter, infill, and the moisture content of the filament. The data gathered just gives me a much better idea of the strength to expect.
+---
+### *PET-CF17 Tensile Data XZ Orientation*
+{% include image-gallery.html images="PETCF17Data.png" height="400" %}
+---
 
 
