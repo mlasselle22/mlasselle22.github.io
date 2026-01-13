@@ -25,7 +25,7 @@ The test platens were fabricated from carbon-fiber-reinforced Nylon-12 to maximi
 {% include image-gallery.html images="PlatenDeflection.png" height="400" %}
 Deflection of the motor mounting brackets was also analyzed, as excessive deformation could lead to mechanical binding and restricted motion in the drive system. Maximum allowable deflections were set to 0.005 in perpendicular to the applied load and 0.01 in parallel to the load direction. Finite element analysis showed a maximum deflection of 0.001 in perpendicular to the load and 0.006 in parallel to the load.
 {% include image-gallery.html images="MotorBracket.png, MotorBracket2" height="400" %}
-Because the platens and motor brackets were produced using FDM additive manufacturing, the predicted deflections from finite element analysis will not match the true deflection due to anisotropy in the printed material. However, finite element analysis estimates served as an estimate. The material properties for the analysis were taken from the Nylon-12CF datasheet for the specific filament used, and the strength and elastic modulus were assumed to be from the weakest print orientation. 
+Because the platens and motor brackets were produced using FDM additive manufacturing, the predicted deflections from finite element analysis will not match the true deflection due to anisotropy in the printed material. However, finite element analysis estimates served as an estimate. The material properties for the analysis were taken from the Nylon-12CF datasheet for the specific filament used, and the strength and elastic modulus were assumed to be from the weakest print orientation.  
 {% include image-gallery.html images="IMG4.PNG" height="400" %}
 ---
 
