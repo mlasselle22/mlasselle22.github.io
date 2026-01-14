@@ -15,10 +15,10 @@ title: Matt Lasselle's Portfolio # This is what shows up in the tab of the brows
 name: Matt Lasselle
 headline: Mechanical Engineer
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Passionate about advancing technologies through innovative design, testing, and analysis of mechanical systems. 
-  Experienced in developing and validating complex assemblies, from large 3D-printed rockets to precision load frames and high-performance machinery. 
-  Skilled in CAD modeling, simulation, and manufacturing processes, with a strong focus on data-driven performance validation.
-  Committed to creating efficient, reliable, and high-impact engineering solutions through creative problem solving and hands-on prototyping.
+  Passionate about advancing technologies through innovative design, testing, and analysis. 
+  Experienced in developing and validating complex assemblies, from custom load frames to precision 3D printers. 
+  Skilled in CAD, simulation, and manufacturing processes, with a strong focus on data-driven validation.
+
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/Profile.png
