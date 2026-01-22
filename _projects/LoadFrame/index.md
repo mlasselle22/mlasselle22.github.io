@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Custom Load Frame
+title: Mechanical Load Frame
 order: 1
-description: Designed and built a 3D Printed load frame
+description: Designed and built a load frame capable of outputting 1200 lbf with 6 inches of travel
 skills: 
   - SOLIDWORKS CAD
   - ANSYS Mechanical
