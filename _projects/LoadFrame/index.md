@@ -53,7 +53,7 @@ Because the platens and motor brackets were produced using FDM additive manufact
 
 ### *Airbrake Pad Fixturing and Test Data*
 {% include image-gallery.html images="Airbrake.PNG, AirbrakeData.png" height="400" %}
----
+
   The load frame has also been used to generate mechanical property data for additively manufactured materials. For example, a PET-CF17 blend that I use was characterized through mechanical testing, allowing for realistic strength and stiffness values to be applied during part design. 
 
 ### *PET-CF17 Tensile Data XZ Orientation*
