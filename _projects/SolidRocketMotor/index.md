@@ -11,7 +11,7 @@ skills:
   - Additive Manufacturing
   - openMotor Simulation
     
-main-image: /TestStand.JPEG
+main-image: /Cover.png
 ---
 
 ## Project Summary
@@ -37,7 +37,7 @@ The primary failure mode of the rocket engine was intentionally designed to be n
 ## Test Fire 1
   The first test fire of the motor was largely unsuccessful. The fully 3D-printed nozzle experienced significant throat erosion early in the burn, which prevented chamber pressure from rising to the expected levels. As a result, the motor produced almost zero thrust and exhibited an abnormally long burn duration.
   
-{% include youtube-video.html id="hvGe_DdZvI0" autoplay= "false"%} {% include image-gallery.html images="Burned.jpg" height="350" %}
+{% include youtube-video.html id="hvGe_DdZvI0" autoplay= "false"%} {% include image-gallery.html images="TestStand.JPEG, Burned.jpg" height="350" %}
 
   I determined that a high-temperature resistant nozzle material such as phenolic or graphite would be required to minimize throat wear. I sourced large-diameter graphite welding rods and machined these into nozzle inserts. The throat was drilled through each insert, and I press-fit the graphite insert into the nozzle housing using a tight locational fit. Finally, I machined the internal contour with a chamfer mill to create the desired convergence angle. With the tools I had available, I could only make the graphite insert converging rather than the initial design which utilized a converging-diverging nozzle.
 
