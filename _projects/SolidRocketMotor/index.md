@@ -51,7 +51,7 @@ The primary failure mode of the rocket engine was intentionally designed to be n
   
   One observation from the thrust curve was that the measured thrust plateaued at roughly 0.8 lbf and did not decay toward the end of the burn. I suspect the motor may have been mechanically constrained in the test stand during firing, preventing the load cell from fully capturing changes in thrust over time. As a result, the apparent flat thrust profile is likely not representative of the true motor performance.
 
-{% include youtube-video.html id="kIxFK-ynPI4" autoplay= "false"%} } {% include image-gallery.html images="TestFire2ThrustCurve.png" height="400" %}
+{% include youtube-video.html id="kIxFK-ynPI4" autoplay= "false"%} {% include image-gallery.html images="TestFire2ThrustCurve.png" height="400" %}
 
 ---
 
@@ -59,7 +59,7 @@ The primary failure mode of the rocket engine was intentionally designed to be n
 
   The third test was the most successful test fire as a true thrust curve was obtained. Due to the low chamber pressures from the RNX-57 propellent, KNSB was used in the third test fire. There was a large dip in thrust at around 1.5 seconds that was due to a large inconsistence in the mixed propellent. This is likely caused by the pressure packing of the KNSB. Pressure packing was used for KNSB as there is a major fire hazard casting the propellent. However, the thrust curve obtained showed the engine produced an impulse of 9 Ns which is categorized as a 90% C engine.
 
-{% include youtube-video.html id="Xk03UnhYxGw" autoplay= "false"%} } {% include image-gallery.html images="3Fire.png" height="400" %}
+{% include youtube-video.html id="Xk03UnhYxGw" autoplay= "false"%} {% include image-gallery.html images="3Fire.png" height="400" %}
 
 Similar to the first and second static fire, no pressure data was gathered. I suspect that the pressure transducer may be bad or have been damaged.
 After three static fires, the aluminum casing is in great condition with no visible damage or discolorations. The test stand has taken no damage as well.
